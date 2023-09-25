@@ -1,0 +1,236 @@
+Begin Object Class=/Script/Engine.MaterialFunction Name="MF_DetectEdgesNormal"
+   Begin Object Class=/Script/Engine.MaterialFunctionEditorOnlyData Name="MF_DetectEdgesNormalEditorOnlyData"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAdd Name="MaterialExpressionAdd_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAdd Name="MaterialExpressionAdd_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionDistance Name="MaterialExpressionDistance_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionDistance Name="MaterialExpressionDistance_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionDistance Name="MaterialExpressionDistance_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionDistance Name="MaterialExpressionDistance_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionDistance Name="MaterialExpressionDistance_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionInput Name="MaterialExpressionFunctionInput_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionInput Name="MaterialExpressionFunctionInput_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionOutput Name="MaterialExpressionFunctionOutput_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionSceneTexture Name="MaterialExpressionSceneTexture_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionSceneTexture Name="MaterialExpressionSceneTexture_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionSceneTexture Name="MaterialExpressionSceneTexture_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionSceneTexture Name="MaterialExpressionSceneTexture_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionSceneTexture Name="MaterialExpressionSceneTexture_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStep Name="MaterialExpressionStep_0"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Class=/Script/Engine.Material Name="Material_0"
+      Begin Object Class=/Script/Engine.MaterialEditorOnlyData Name="Material_0EditorOnlyData"
+      End Object
+   End Object
+   Begin Object Name="MF_DetectEdgesNormalEditorOnlyData"
+      ExpressionCollection=(Expressions=(/Script/Engine.MaterialExpressionFunctionOutput'"MF_DetectEdgesNormal:MaterialExpressionFunctionOutput_0"',/Script/Engine.MaterialExpressionFunctionInput'"MF_DetectEdgesNormal:MaterialExpressionFunctionInput_2"',/Script/Engine.MaterialExpressionConstant'"MF_DetectEdgesNormal:MaterialExpressionConstant_1"',/Script/Engine.MaterialExpressionConstant'"MF_DetectEdgesNormal:MaterialExpressionConstant_0"',/Script/Engine.MaterialExpressionFunctionInput'"MF_DetectEdgesNormal:MaterialExpressionFunctionInput_1"',/Script/Engine.MaterialExpressionMaterialFunctionCall'"MF_DetectEdgesNormal:MaterialExpressionMaterialFunctionCall_0"',/Script/Engine.MaterialExpressionSceneTexture'"MF_DetectEdgesNormal:MaterialExpressionSceneTexture_0"',/Script/Engine.MaterialExpressionSceneTexture'"MF_DetectEdgesNormal:MaterialExpressionSceneTexture_1"',/Script/Engine.MaterialExpressionSceneTexture'"MF_DetectEdgesNormal:MaterialExpressionSceneTexture_2"',/Script/Engine.MaterialExpressionSceneTexture'"MF_DetectEdgesNormal:MaterialExpressionSceneTexture_3"',/Script/Engine.MaterialExpressionSceneTexture'"MF_DetectEdgesNormal:MaterialExpressionSceneTexture_4"',/Script/Engine.MaterialExpressionDistance'"MF_DetectEdgesNormal:MaterialExpressionDistance_0"',/Script/Engine.MaterialExpressionDistance'"MF_DetectEdgesNormal:MaterialExpressionDistance_1"',/Script/Engine.MaterialExpressionDistance'"MF_DetectEdgesNormal:MaterialExpressionDistance_2"',/Script/Engine.MaterialExpressionDistance'"MF_DetectEdgesNormal:MaterialExpressionDistance_3"',/Script/Engine.MaterialExpressionAdd'"MF_DetectEdgesNormal:MaterialExpressionAdd_0"',/Script/Engine.MaterialExpressionAdd'"MF_DetectEdgesNormal:MaterialExpressionAdd_1"',/Script/Engine.MaterialExpressionDistance'"MF_DetectEdgesNormal:MaterialExpressionDistance_4"',/Script/Engine.MaterialExpressionStep'"MF_DetectEdgesNormal:MaterialExpressionStep_0"'))
+   End Object
+   Begin Object Name="MaterialExpressionAdd_0"
+      A=(Expression=/Script/Engine.MaterialExpressionDistance'"MF_DetectEdgesNormal:MaterialExpressionDistance_0"')
+      B=(Expression=/Script/Engine.MaterialExpressionDistance'"MF_DetectEdgesNormal:MaterialExpressionDistance_1"')
+      MaterialExpressionEditorX=-752
+      MaterialExpressionEditorY=-32
+      MaterialExpressionGuid=F5A116EE4157590D6375E0BA664390E2
+      Function=/Script/Engine.MaterialFunction'"MF_DetectEdgesNormal"'
+   End Object
+   Begin Object Name="MaterialExpressionAdd_1"
+      A=(Expression=/Script/Engine.MaterialExpressionDistance'"MF_DetectEdgesNormal:MaterialExpressionDistance_3"')
+      B=(Expression=/Script/Engine.MaterialExpressionDistance'"MF_DetectEdgesNormal:MaterialExpressionDistance_2"')
+      MaterialExpressionEditorX=-768
+      MaterialExpressionEditorY=352
+      MaterialExpressionGuid=F5A116EE4157590D6375E0BA664390E2
+      Function=/Script/Engine.MaterialFunction'"MF_DetectEdgesNormal"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_0"
+      R=1.000000
+      MaterialExpressionEditorX=-2320
+      MaterialExpressionEditorY=64
+      MaterialExpressionGuid=BED9DD87447992DAEE76ED936F8B186B
+      Function=/Script/Engine.MaterialFunction'"MF_DetectEdgesNormal"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_1"
+      R=1.000000
+      MaterialExpressionEditorX=-544
+      MaterialExpressionEditorY=-112
+      MaterialExpressionGuid=E5B947984E73C4CE173B2F805A6107DB
+      Function=/Script/Engine.MaterialFunction'"MF_DetectEdgesNormal"'
+   End Object
+   Begin Object Name="MaterialExpressionDistance_0"
+      A=(Expression=/Script/Engine.MaterialExpressionSceneTexture'"MF_DetectEdgesNormal:MaterialExpressionSceneTexture_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1,MaskA=1)
+      B=(Expression=/Script/Engine.MaterialExpressionSceneTexture'"MF_DetectEdgesNormal:MaterialExpressionSceneTexture_1"',Mask=1,MaskR=1,MaskG=1,MaskB=1,MaskA=1)
+      MaterialExpressionEditorX=-976
+      MaterialExpressionEditorY=-128
+      MaterialExpressionGuid=E1B1508341CB43F39AB14A9472EB466C
+      Function=/Script/Engine.MaterialFunction'"MF_DetectEdgesNormal"'
+   End Object
+   Begin Object Name="MaterialExpressionDistance_1"
+      A=(Expression=/Script/Engine.MaterialExpressionSceneTexture'"MF_DetectEdgesNormal:MaterialExpressionSceneTexture_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1,MaskA=1)
+      B=(Expression=/Script/Engine.MaterialExpressionSceneTexture'"MF_DetectEdgesNormal:MaterialExpressionSceneTexture_2"',Mask=1,MaskR=1,MaskG=1,MaskB=1,MaskA=1)
+      MaterialExpressionEditorX=-976
+      MaterialExpressionEditorY=80
+      MaterialExpressionGuid=E1B1508341CB43F39AB14A9472EB466C
+      Function=/Script/Engine.MaterialFunction'"MF_DetectEdgesNormal"'
+   End Object
+   Begin Object Name="MaterialExpressionDistance_2"
+      A=(Expression=/Script/Engine.MaterialExpressionSceneTexture'"MF_DetectEdgesNormal:MaterialExpressionSceneTexture_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1,MaskA=1)
+      B=(Expression=/Script/Engine.MaterialExpressionSceneTexture'"MF_DetectEdgesNormal:MaterialExpressionSceneTexture_4"',Mask=1,MaskR=1,MaskG=1,MaskB=1,MaskA=1)
+      MaterialExpressionEditorX=-976
+      MaterialExpressionEditorY=432
+      MaterialExpressionGuid=E1B1508341CB43F39AB14A9472EB466C
+      Function=/Script/Engine.MaterialFunction'"MF_DetectEdgesNormal"'
+   End Object
+   Begin Object Name="MaterialExpressionDistance_3"
+      A=(Expression=/Script/Engine.MaterialExpressionSceneTexture'"MF_DetectEdgesNormal:MaterialExpressionSceneTexture_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1,MaskA=1)
+      B=(Expression=/Script/Engine.MaterialExpressionSceneTexture'"MF_DetectEdgesNormal:MaterialExpressionSceneTexture_3"',Mask=1,MaskR=1,MaskG=1,MaskB=1,MaskA=1)
+      MaterialExpressionEditorX=-976
+      MaterialExpressionEditorY=272
+      MaterialExpressionGuid=E1B1508341CB43F39AB14A9472EB466C
+      Function=/Script/Engine.MaterialFunction'"MF_DetectEdgesNormal"'
+   End Object
+   Begin Object Name="MaterialExpressionDistance_4"
+      A=(Expression=/Script/Engine.MaterialExpressionAdd'"MF_DetectEdgesNormal:MaterialExpressionAdd_0"')
+      B=(Expression=/Script/Engine.MaterialExpressionAdd'"MF_DetectEdgesNormal:MaterialExpressionAdd_1"')
+      MaterialExpressionEditorX=-592
+      MaterialExpressionEditorY=112
+      MaterialExpressionGuid=E1B1508341CB43F39AB14A9472EB466C
+      Function=/Script/Engine.MaterialFunction'"MF_DetectEdgesNormal"'
+   End Object
+   Begin Object Name="MaterialExpressionFunctionInput_1"
+      Preview=(Expression=/Script/Engine.MaterialExpressionConstant'"MF_DetectEdgesNormal:MaterialExpressionConstant_0"')
+      InputName="Thickness"
+      Id=06CBD4524BB0D79E259985A410BAD4FF
+      InputType=FunctionInput_Scalar
+      MaterialExpressionEditorX=-2064
+      MaterialExpressionEditorY=32
+      MaterialExpressionGuid=6E7FEF514DCA519C7933ADBF711A5389
+      Function=/Script/Engine.MaterialFunction'"MF_DetectEdgesNormal"'
+   End Object
+   Begin Object Name="MaterialExpressionFunctionInput_2"
+      Preview=(Expression=/Script/Engine.MaterialExpressionConstant'"MF_DetectEdgesNormal:MaterialExpressionConstant_1"')
+      InputName="Threshhold"
+      Id=DA4F15FC4536EC772E5348ACA7BF850C
+      InputType=FunctionInput_Scalar
+      MaterialExpressionEditorX=-368
+      MaterialExpressionEditorY=-112
+      MaterialExpressionGuid=0428F5094BFEF6200BCA26B296E8229C
+      Function=/Script/Engine.MaterialFunction'"MF_DetectEdgesNormal"'
+   End Object
+   Begin Object Name="MaterialExpressionFunctionOutput_0"
+      A=(Expression=/Script/Engine.MaterialExpressionStep'"MF_DetectEdgesNormal:MaterialExpressionStep_0"')
+      bLastPreviewed=True
+      Id=B87C47644BA37111F4529D8B9B973812
+      MaterialExpressionEditorX=200
+      MaterialExpressionEditorY=300
+      MaterialExpressionGuid=BA1D514A4D5F44427F3A77A67BB08D2A
+      Function=/Script/Engine.MaterialFunction'"MF_DetectEdgesNormal"'
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_0"
+      MaterialFunction=/Script/Engine.MaterialFunction'"/Game/PostProcess/Outline+Functions/MF_GetKernel.MF_GetKernel"'
+      FunctionInputs(0)=(ExpressionInputId=D88E62DA4CD9192608BEF1BBC366C0AF,Input=(Expression=/Script/Engine.MaterialExpressionFunctionInput'"MF_DetectEdgesNormal:MaterialExpressionFunctionInput_1"',InputName="Width"))
+      FunctionOutputs(0)=(ExpressionOutputId=22B370C442A395BA1C94E8BDD52A83A5,Output=(OutputName="Center"))
+      FunctionOutputs(1)=(ExpressionOutputId=1B7D3D8A4FA27CE873F202BE306AD7C8,Output=(OutputName="Left"))
+      FunctionOutputs(2)=(ExpressionOutputId=F878CFFD478B9E8686DBB88B9A27D807,Output=(OutputName="Right"))
+      FunctionOutputs(3)=(ExpressionOutputId=72BDC5A9455049C8AB20B48A276E76F8,Output=(OutputName="Up"))
+      FunctionOutputs(4)=(ExpressionOutputId=E14AFED541CBFCB6A99DE8AFFB0686CD,Output=(OutputName="Down"))
+      MaterialExpressionEditorX=-1648
+      MaterialExpressionEditorY=32
+      MaterialExpressionGuid=0ACE4EDE440616D94045C7BD2591C6B5
+      Function=/Script/Engine.MaterialFunction'"MF_DetectEdgesNormal"'
+      Outputs(0)=(OutputName="Center")
+      Outputs(1)=(OutputName="Left")
+      Outputs(2)=(OutputName="Right")
+      Outputs(3)=(OutputName="Up")
+      Outputs(4)=(OutputName="Down")
+   End Object
+   Begin Object Name="MaterialExpressionSceneTexture_0"
+      Coordinates=(Expression=/Script/Engine.MaterialExpressionMaterialFunctionCall'"MF_DetectEdgesNormal:MaterialExpressionMaterialFunctionCall_0"')
+      SceneTextureId=PPI_WorldNormal
+      MaterialExpressionEditorX=-1408
+      MaterialExpressionEditorY=-192
+      MaterialExpressionGuid=09A5F6714B2839B744359296C71D47A6
+      Function=/Script/Engine.MaterialFunction'"MF_DetectEdgesNormal"'
+   End Object
+   Begin Object Name="MaterialExpressionSceneTexture_1"
+      Coordinates=(Expression=/Script/Engine.MaterialExpressionMaterialFunctionCall'"MF_DetectEdgesNormal:MaterialExpressionMaterialFunctionCall_0"',OutputIndex=1)
+      SceneTextureId=PPI_WorldNormal
+      MaterialExpressionEditorX=-1408
+      MaterialExpressionGuid=09A5F6714B2839B744359296C71D47A6
+      Function=/Script/Engine.MaterialFunction'"MF_DetectEdgesNormal"'
+   End Object
+   Begin Object Name="MaterialExpressionSceneTexture_2"
+      Coordinates=(Expression=/Script/Engine.MaterialExpressionMaterialFunctionCall'"MF_DetectEdgesNormal:MaterialExpressionMaterialFunctionCall_0"',OutputIndex=2)
+      SceneTextureId=PPI_WorldNormal
+      MaterialExpressionEditorX=-1408
+      MaterialExpressionEditorY=160
+      MaterialExpressionGuid=09A5F6714B2839B744359296C71D47A6
+      Function=/Script/Engine.MaterialFunction'"MF_DetectEdgesNormal"'
+   End Object
+   Begin Object Name="MaterialExpressionSceneTexture_3"
+      Coordinates=(Expression=/Script/Engine.MaterialExpressionMaterialFunctionCall'"MF_DetectEdgesNormal:MaterialExpressionMaterialFunctionCall_0"',OutputIndex=3)
+      SceneTextureId=PPI_WorldNormal
+      MaterialExpressionEditorX=-1408
+      MaterialExpressionEditorY=320
+      MaterialExpressionGuid=09A5F6714B2839B744359296C71D47A6
+      Function=/Script/Engine.MaterialFunction'"MF_DetectEdgesNormal"'
+   End Object
+   Begin Object Name="MaterialExpressionSceneTexture_4"
+      Coordinates=(Expression=/Script/Engine.MaterialExpressionMaterialFunctionCall'"MF_DetectEdgesNormal:MaterialExpressionMaterialFunctionCall_0"',OutputIndex=4)
+      SceneTextureId=PPI_WorldNormal
+      MaterialExpressionEditorX=-1408
+      MaterialExpressionEditorY=480
+      MaterialExpressionGuid=09A5F6714B2839B744359296C71D47A6
+      Function=/Script/Engine.MaterialFunction'"MF_DetectEdgesNormal"'
+   End Object
+   Begin Object Name="MaterialExpressionStep_0"
+      Y=(Expression=/Script/Engine.MaterialExpressionFunctionInput'"MF_DetectEdgesNormal:MaterialExpressionFunctionInput_2"')
+      X=(Expression=/Script/Engine.MaterialExpressionDistance'"MF_DetectEdgesNormal:MaterialExpressionDistance_4"')
+      MaterialExpressionEditorX=-48
+      MaterialExpressionEditorY=288
+      MaterialExpressionGuid=D929BB204E7EACCE06CBB8BEFEB7B5E2
+      Function=/Script/Engine.MaterialFunction'"MF_DetectEdgesNormal"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="Material_0"
+      Begin Object Name="Material_0EditorOnlyData"
+         EmissiveColor=(Expression=/Script/Engine.MaterialExpressionFunctionOutput'"MF_DetectEdgesNormal:MaterialExpressionFunctionOutput_0"')
+         ExpressionCollection=(Expressions=(/Script/Engine.MaterialExpressionFunctionOutput'"MF_DetectEdgesNormal:MaterialExpressionFunctionOutput_0"',/Script/Engine.MaterialExpressionFunctionInput'"MF_DetectEdgesNormal:MaterialExpressionFunctionInput_2"',/Script/Engine.MaterialExpressionConstant'"MF_DetectEdgesNormal:MaterialExpressionConstant_1"',/Script/Engine.MaterialExpressionConstant'"MF_DetectEdgesNormal:MaterialExpressionConstant_0"',/Script/Engine.MaterialExpressionFunctionInput'"MF_DetectEdgesNormal:MaterialExpressionFunctionInput_1"',/Script/Engine.MaterialExpressionMaterialFunctionCall'"MF_DetectEdgesNormal:MaterialExpressionMaterialFunctionCall_0"',/Script/Engine.MaterialExpressionSceneTexture'"MF_DetectEdgesNormal:MaterialExpressionSceneTexture_0"',/Script/Engine.MaterialExpressionSceneTexture'"MF_DetectEdgesNormal:MaterialExpressionSceneTexture_1"',/Script/Engine.MaterialExpressionSceneTexture'"MF_DetectEdgesNormal:MaterialExpressionSceneTexture_2"',/Script/Engine.MaterialExpressionSceneTexture'"MF_DetectEdgesNormal:MaterialExpressionSceneTexture_3"',/Script/Engine.MaterialExpressionSceneTexture'"MF_DetectEdgesNormal:MaterialExpressionSceneTexture_4"',/Script/Engine.MaterialExpressionDistance'"MF_DetectEdgesNormal:MaterialExpressionDistance_0"',/Script/Engine.MaterialExpressionDistance'"MF_DetectEdgesNormal:MaterialExpressionDistance_1"',/Script/Engine.MaterialExpressionDistance'"MF_DetectEdgesNormal:MaterialExpressionDistance_2"',/Script/Engine.MaterialExpressionDistance'"MF_DetectEdgesNormal:MaterialExpressionDistance_3"',/Script/Engine.MaterialExpressionAdd'"MF_DetectEdgesNormal:MaterialExpressionAdd_0"',/Script/Engine.MaterialExpressionAdd'"MF_DetectEdgesNormal:MaterialExpressionAdd_1"',/Script/Engine.MaterialExpressionDistance'"MF_DetectEdgesNormal:MaterialExpressionDistance_4"',/Script/Engine.MaterialExpressionStep'"MF_DetectEdgesNormal:MaterialExpressionStep_0"'))
+      End Object
+      ShadingModel=MSM_Unlit
+      ShadingModels=(ShadingModelField=1)
+      bCanMaskedBeAssumedOpaque=True
+      StateId=D08851DC404CFF8D42B01F9DAF2FDE8A
+      EditorOnlyData=/Script/Engine.MaterialEditorOnlyData'"Material_0EditorOnlyData"'
+      ThumbnailInfo=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive'"MF_DetectEdgesNormal:SceneThumbnailInfoWithPrimitive_0"'
+      LightingGuid=9F8ECCB246974C9A61ABFA9988AA4997
+   End Object
+   DependentFunctionExpressionCandidates(0)=/Script/Engine.MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_0"'
+   EditorOnlyData=/Script/Engine.MaterialFunctionEditorOnlyData'"MF_DetectEdgesNormalEditorOnlyData"'
+   StateId=DF55B2BB4E32FB538185F4A992415852
+   CombinedInputTypes=15
+   CombinedOutputTypes=15
+   ThumbnailInfo=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+End Object

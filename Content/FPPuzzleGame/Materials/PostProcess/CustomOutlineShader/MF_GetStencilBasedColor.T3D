@@ -1,0 +1,216 @@
+Begin Object Class=/Script/Engine.MaterialFunction Name="MF_GetStencilBasedColor"
+   Begin Object Class=/Script/Engine.MaterialFunctionEditorOnlyData Name="MF_GetStencilBasedColorEditorOnlyData"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComponentMask Name="MaterialExpressionComponentMask_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant3Vector Name="MaterialExpressionConstant3Vector_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionDivide Name="MaterialExpressionDivide_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionInput Name="MaterialExpressionFunctionInput_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionOutput Name="MaterialExpressionFunctionOutput_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionSceneTexture Name="MaterialExpressionSceneTexture_0"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Class=/Script/Engine.Material Name="Material_0"
+      Begin Object Class=/Script/Engine.MaterialEditorOnlyData Name="Material_0EditorOnlyData"
+      End Object
+   End Object
+   Begin Object Name="MF_GetStencilBasedColorEditorOnlyData"
+      ExpressionCollection=(Expressions=(/Script/Engine.MaterialExpressionFunctionOutput'"MF_GetStencilBasedColor:MaterialExpressionFunctionOutput_0"',/Script/Engine.MaterialExpressionSceneTexture'"MF_GetStencilBasedColor:MaterialExpressionSceneTexture_0"',/Script/Engine.MaterialExpressionComponentMask'"MF_GetStencilBasedColor:MaterialExpressionComponentMask_0"',/Script/Engine.MaterialExpressionMaterialFunctionCall'"MF_GetStencilBasedColor:MaterialExpressionMaterialFunctionCall_0"',/Script/Engine.MaterialExpressionFunctionInput'"MF_GetStencilBasedColor:MaterialExpressionFunctionInput_0"',/Script/Engine.MaterialExpressionConstant'"MF_GetStencilBasedColor:MaterialExpressionConstant_3"',/Script/Engine.MaterialExpressionMaterialFunctionCall'"MF_GetStencilBasedColor:MaterialExpressionMaterialFunctionCall_1"',/Script/Engine.MaterialExpressionMaterialFunctionCall'"MF_GetStencilBasedColor:MaterialExpressionMaterialFunctionCall_2"',/Script/Engine.MaterialExpressionMaterialFunctionCall'"MF_GetStencilBasedColor:MaterialExpressionMaterialFunctionCall_3"',/Script/Engine.MaterialExpressionMaterialFunctionCall'"MF_GetStencilBasedColor:MaterialExpressionMaterialFunctionCall_4"',/Script/Engine.MaterialExpressionMaterialFunctionCall'"MF_GetStencilBasedColor:MaterialExpressionMaterialFunctionCall_5"',/Script/Engine.MaterialExpressionConstant3Vector'"MF_GetStencilBasedColor:MaterialExpressionConstant3Vector_0"',/Script/Engine.MaterialExpressionMultiply'"MF_GetStencilBasedColor:MaterialExpressionMultiply_0"',/Script/Engine.MaterialExpressionScalarParameter'"MF_GetStencilBasedColor:MaterialExpressionScalarParameter_0"',/Script/Engine.MaterialExpressionDivide'"MF_GetStencilBasedColor:MaterialExpressionDivide_0"'))
+   End Object
+   Begin Object Name="MaterialExpressionComponentMask_0"
+      Input=(Expression=/Script/Engine.MaterialExpressionSceneTexture'"MF_GetStencilBasedColor:MaterialExpressionSceneTexture_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1,MaskA=1)
+      R=True
+      MaterialExpressionEditorX=-544
+      MaterialExpressionEditorY=320
+      MaterialExpressionGuid=80C57E75400A54E68337A1BDED57A2C7
+      Function=/Script/Engine.MaterialFunction'"MF_GetStencilBasedColor"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_3"
+      R=1.000000
+      MaterialExpressionEditorX=-2496
+      MaterialExpressionEditorY=400
+      MaterialExpressionGuid=5B36C149427A1CCDD03C4CB0DE5F432A
+      Function=/Script/Engine.MaterialFunction'"MF_GetStencilBasedColor"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant3Vector_0"
+      Constant=(R=1.000000,G=0.000000,B=0.000000,A=0.000000)
+      MaterialExpressionEditorX=-352
+      MaterialExpressionEditorY=480
+      MaterialExpressionGuid=6E88A672417F386D5C2F1BA08598F0B8
+      Function=/Script/Engine.MaterialFunction'"MF_GetStencilBasedColor"'
+   End Object
+   Begin Object Name="MaterialExpressionDivide_0"
+      A=(Expression=/Script/Engine.MaterialExpressionComponentMask'"MF_GetStencilBasedColor:MaterialExpressionComponentMask_0"')
+      ConstB=255.000000
+      MaterialExpressionEditorX=-48
+      MaterialExpressionEditorY=320
+      MaterialExpressionGuid=E0C0DEF84643A623D1E1E3864E2174A0
+      Function=/Script/Engine.MaterialFunction'"MF_GetStencilBasedColor"'
+   End Object
+   Begin Object Name="MaterialExpressionFunctionInput_0"
+      Preview=(Expression=/Script/Engine.MaterialExpressionConstant'"MF_GetStencilBasedColor:MaterialExpressionConstant_3"')
+      InputName="Thickness"
+      Id=D5AC6999443DE0D6466E008D1B6D3CE0
+      InputType=FunctionInput_Scalar
+      MaterialExpressionEditorX=-2336
+      MaterialExpressionEditorY=336
+      MaterialExpressionGuid=F96BDD794EC2E5DF7E1DD59F5569A028
+      Function=/Script/Engine.MaterialFunction'"MF_GetStencilBasedColor"'
+   End Object
+   Begin Object Name="MaterialExpressionFunctionOutput_0"
+      A=(Expression=/Script/Engine.MaterialExpressionMaterialFunctionCall'"MF_GetStencilBasedColor:MaterialExpressionMaterialFunctionCall_5"')
+      bLastPreviewed=True
+      Id=42DBD1B74BE13C7910E1D69EB1760659
+      MaterialExpressionEditorX=672
+      MaterialExpressionEditorY=288
+      MaterialExpressionGuid=EF07C6934A659413D74752AB4A7BEF37
+      Function=/Script/Engine.MaterialFunction'"MF_GetStencilBasedColor"'
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_0"
+      MaterialFunction=/Script/Engine.MaterialFunction'"/Game/PostProcess/Outline+Functions/MF_GetKernel.MF_GetKernel"'
+      FunctionInputs(0)=(ExpressionInputId=D88E62DA4CD9192608BEF1BBC366C0AF,Input=(Expression=/Script/Engine.MaterialExpressionFunctionInput'"MF_GetStencilBasedColor:MaterialExpressionFunctionInput_0"',InputName="Width"))
+      FunctionOutputs(0)=(ExpressionOutputId=22B370C442A395BA1C94E8BDD52A83A5,Output=(OutputName="Center"))
+      FunctionOutputs(1)=(ExpressionOutputId=1B7D3D8A4FA27CE873F202BE306AD7C8,Output=(OutputName="Left"))
+      FunctionOutputs(2)=(ExpressionOutputId=F878CFFD478B9E8686DBB88B9A27D807,Output=(OutputName="Right"))
+      FunctionOutputs(3)=(ExpressionOutputId=72BDC5A9455049C8AB20B48A276E76F8,Output=(OutputName="Up"))
+      FunctionOutputs(4)=(ExpressionOutputId=E14AFED541CBFCB6A99DE8AFFB0686CD,Output=(OutputName="Down"))
+      MaterialExpressionEditorX=-2112
+      MaterialExpressionEditorY=336
+      MaterialExpressionGuid=B35894464D277C0B0C62178C4987CA06
+      Function=/Script/Engine.MaterialFunction'"MF_GetStencilBasedColor"'
+      Outputs(0)=(OutputName="Center")
+      Outputs(1)=(OutputName="Left")
+      Outputs(2)=(OutputName="Right")
+      Outputs(3)=(OutputName="Up")
+      Outputs(4)=(OutputName="Down")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_1"
+      MaterialFunction=/Script/Engine.MaterialFunction'"/Game/PostProcess/Outline+Functions/MF_CompareCustomDepth.MF_CompareCustomDepth"'
+      FunctionInputs(0)=(ExpressionInputId=0E1B726F403F24F46A5AD895DDA1D270,Input=(Expression=/Script/Engine.MaterialExpressionMaterialFunctionCall'"MF_GetStencilBasedColor:MaterialExpressionMaterialFunctionCall_0"',InputName="UV B"))
+      FunctionInputs(1)=(ExpressionInputId=8B134427488EAF15A0F45ABA3A5BD956,Input=(Expression=/Script/Engine.MaterialExpressionMaterialFunctionCall'"MF_GetStencilBasedColor:MaterialExpressionMaterialFunctionCall_0"',OutputIndex=1,InputName="UV A"))
+      FunctionOutputs(0)=(ExpressionOutputId=670075164E3FB6672791119AC0FAB164,Output=(OutputName="Result"))
+      MaterialExpressionEditorX=-1728
+      MaterialExpressionEditorY=288
+      MaterialExpressionGuid=4CE02001468596E5951DD9B746CF9A97
+      Function=/Script/Engine.MaterialFunction'"MF_GetStencilBasedColor"'
+      Outputs(0)=(OutputName="Result")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_2"
+      MaterialFunction=/Script/Engine.MaterialFunction'"/Game/PostProcess/Outline+Functions/MF_CompareCustomDepth.MF_CompareCustomDepth"'
+      FunctionInputs(0)=(ExpressionInputId=0E1B726F403F24F46A5AD895DDA1D270,Input=(Expression=/Script/Engine.MaterialExpressionMaterialFunctionCall'"MF_GetStencilBasedColor:MaterialExpressionMaterialFunctionCall_0"',OutputIndex=2,InputName="UV B"))
+      FunctionInputs(1)=(ExpressionInputId=8B134427488EAF15A0F45ABA3A5BD956,Input=(Expression=/Script/Engine.MaterialExpressionMaterialFunctionCall'"MF_GetStencilBasedColor:MaterialExpressionMaterialFunctionCall_3"',InputName="UV A"))
+      FunctionOutputs(0)=(ExpressionOutputId=670075164E3FB6672791119AC0FAB164,Output=(OutputName="Result"))
+      MaterialExpressionEditorX=-1472
+      MaterialExpressionEditorY=384
+      MaterialExpressionGuid=4CE02001468596E5951DD9B746CF9A97
+      Function=/Script/Engine.MaterialFunction'"MF_GetStencilBasedColor"'
+      Outputs(0)=(OutputName="Result")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_3"
+      MaterialFunction=/Script/Engine.MaterialFunction'"/Game/PostProcess/Outline+Functions/MF_CompareCustomDepth.MF_CompareCustomDepth"'
+      FunctionInputs(0)=(ExpressionInputId=0E1B726F403F24F46A5AD895DDA1D270,Input=(Expression=/Script/Engine.MaterialExpressionMaterialFunctionCall'"MF_GetStencilBasedColor:MaterialExpressionMaterialFunctionCall_0"',OutputIndex=3,InputName="UV B"))
+      FunctionInputs(1)=(ExpressionInputId=8B134427488EAF15A0F45ABA3A5BD956,Input=(Expression=/Script/Engine.MaterialExpressionMaterialFunctionCall'"MF_GetStencilBasedColor:MaterialExpressionMaterialFunctionCall_0"',OutputIndex=4,InputName="UV A"))
+      FunctionOutputs(0)=(ExpressionOutputId=670075164E3FB6672791119AC0FAB164,Output=(OutputName="Result"))
+      MaterialExpressionEditorX=-1744
+      MaterialExpressionEditorY=448
+      MaterialExpressionGuid=4CE02001468596E5951DD9B746CF9A97
+      Function=/Script/Engine.MaterialFunction'"MF_GetStencilBasedColor"'
+      Outputs(0)=(OutputName="Result")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_4"
+      MaterialFunction=/Script/Engine.MaterialFunction'"/Game/PostProcess/Outline+Functions/MF_CompareCustomDepth.MF_CompareCustomDepth"'
+      FunctionInputs(0)=(ExpressionInputId=0E1B726F403F24F46A5AD895DDA1D270,Input=(Expression=/Script/Engine.MaterialExpressionMaterialFunctionCall'"MF_GetStencilBasedColor:MaterialExpressionMaterialFunctionCall_1"',InputName="UV B"))
+      FunctionInputs(1)=(ExpressionInputId=8B134427488EAF15A0F45ABA3A5BD956,Input=(Expression=/Script/Engine.MaterialExpressionMaterialFunctionCall'"MF_GetStencilBasedColor:MaterialExpressionMaterialFunctionCall_2"',InputName="UV A"))
+      FunctionOutputs(0)=(ExpressionOutputId=670075164E3FB6672791119AC0FAB164,Output=(OutputName="Result"))
+      MaterialExpressionEditorX=-1248
+      MaterialExpressionEditorY=320
+      MaterialExpressionGuid=4CE02001468596E5951DD9B746CF9A97
+      Function=/Script/Engine.MaterialFunction'"MF_GetStencilBasedColor"'
+      Outputs(0)=(OutputName="Result")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_5"
+      MaterialFunction=/Script/Engine.MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions02/HueShift.HueShift"'
+      FunctionInputs(0)=(ExpressionInputId=AC2B9A554C8F2FC44CAFC38DEECA8B27,Input=(Expression=/Script/Engine.MaterialExpressionDivide'"MF_GetStencilBasedColor:MaterialExpressionDivide_0"',InputName="Hue Shift Percentage"))
+      FunctionInputs(1)=(ExpressionInputId=7357D1CC481540757C89D685B6F4ED36,Input=(Expression=/Script/Engine.MaterialExpressionConstant3Vector'"MF_GetStencilBasedColor:MaterialExpressionConstant3Vector_0"',InputName="Texture",Mask=1,MaskR=1,MaskG=1,MaskB=1))
+      FunctionOutputs(0)=(ExpressionOutputId=52E5E332482A8447B8F4679D4758D2F3,Output=(OutputName="Result"))
+      MaterialExpressionEditorX=336
+      MaterialExpressionEditorY=320
+      MaterialExpressionGuid=2F0ACD7E47BCB665A6C892B28BF2ADEA
+      Function=/Script/Engine.MaterialFunction'"MF_GetStencilBasedColor"'
+      Outputs(0)=(OutputName="Result")
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_0"
+      A=(Expression=/Script/Engine.MaterialExpressionConstant3Vector'"MF_GetStencilBasedColor:MaterialExpressionConstant3Vector_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      B=(Expression=/Script/Engine.MaterialExpressionScalarParameter'"MF_GetStencilBasedColor:MaterialExpressionScalarParameter_0"')
+      MaterialExpressionEditorX=-32
+      MaterialExpressionEditorY=624
+      MaterialExpressionGuid=63FEC9DE471BB00267E412B9AF2A559B
+      Function=/Script/Engine.MaterialFunction'"MF_GetStencilBasedColor"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_0"
+      DefaultValue=1.000000
+      ParameterName="StencilColorEmissiveFactor"
+      ExpressionGUID=782EC49A4E1A9EF0A92262BC9F14D7BB
+      MaterialExpressionEditorX=-352
+      MaterialExpressionEditorY=704
+      MaterialExpressionGuid=EA8AFEEE4151C30D9760BEB52FCE580E
+      Function=/Script/Engine.MaterialFunction'"MF_GetStencilBasedColor"'
+   End Object
+   Begin Object Name="MaterialExpressionSceneTexture_0"
+      Coordinates=(Expression=/Script/Engine.MaterialExpressionMaterialFunctionCall'"MF_GetStencilBasedColor:MaterialExpressionMaterialFunctionCall_4"')
+      SceneTextureId=PPI_CustomStencil
+      MaterialExpressionEditorX=-880
+      MaterialExpressionEditorY=320
+      MaterialExpressionGuid=32D29E4642C9733550F94F97838DD9F7
+      Function=/Script/Engine.MaterialFunction'"MF_GetStencilBasedColor"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="Material_0"
+      Begin Object Name="Material_0EditorOnlyData"
+         EmissiveColor=(Expression=/Script/Engine.MaterialExpressionFunctionOutput'"MF_GetStencilBasedColor:MaterialExpressionFunctionOutput_0"')
+         ExpressionCollection=(Expressions=(/Script/Engine.MaterialExpressionFunctionOutput'"MF_GetStencilBasedColor:MaterialExpressionFunctionOutput_0"',/Script/Engine.MaterialExpressionSceneTexture'"MF_GetStencilBasedColor:MaterialExpressionSceneTexture_0"',/Script/Engine.MaterialExpressionComponentMask'"MF_GetStencilBasedColor:MaterialExpressionComponentMask_0"',/Script/Engine.MaterialExpressionMaterialFunctionCall'"MF_GetStencilBasedColor:MaterialExpressionMaterialFunctionCall_0"',/Script/Engine.MaterialExpressionFunctionInput'"MF_GetStencilBasedColor:MaterialExpressionFunctionInput_0"',/Script/Engine.MaterialExpressionConstant'"MF_GetStencilBasedColor:MaterialExpressionConstant_3"',/Script/Engine.MaterialExpressionMaterialFunctionCall'"MF_GetStencilBasedColor:MaterialExpressionMaterialFunctionCall_1"',/Script/Engine.MaterialExpressionMaterialFunctionCall'"MF_GetStencilBasedColor:MaterialExpressionMaterialFunctionCall_2"',/Script/Engine.MaterialExpressionMaterialFunctionCall'"MF_GetStencilBasedColor:MaterialExpressionMaterialFunctionCall_3"',/Script/Engine.MaterialExpressionMaterialFunctionCall'"MF_GetStencilBasedColor:MaterialExpressionMaterialFunctionCall_4"',/Script/Engine.MaterialExpressionMaterialFunctionCall'"MF_GetStencilBasedColor:MaterialExpressionMaterialFunctionCall_5"',/Script/Engine.MaterialExpressionConstant3Vector'"MF_GetStencilBasedColor:MaterialExpressionConstant3Vector_0"',/Script/Engine.MaterialExpressionMultiply'"MF_GetStencilBasedColor:MaterialExpressionMultiply_0"',/Script/Engine.MaterialExpressionScalarParameter'"MF_GetStencilBasedColor:MaterialExpressionScalarParameter_0"',/Script/Engine.MaterialExpressionDivide'"MF_GetStencilBasedColor:MaterialExpressionDivide_0"'))
+      End Object
+      ShadingModel=MSM_Unlit
+      ShadingModels=(ShadingModelField=1)
+      bCanMaskedBeAssumedOpaque=True
+      StateId=BB43470F4805F0898CA7749E46D11DE8
+      EditorOnlyData=/Script/Engine.MaterialEditorOnlyData'"Material_0EditorOnlyData"'
+      ThumbnailInfo=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive'"MF_GetStencilBasedColor:SceneThumbnailInfoWithPrimitive_0"'
+      LightingGuid=8ECE323E46EFAA75655C6B9E72C1B65E
+   End Object
+   DependentFunctionExpressionCandidates(0)=/Script/Engine.MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_0"'
+   DependentFunctionExpressionCandidates(1)=/Script/Engine.MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_1"'
+   DependentFunctionExpressionCandidates(2)=/Script/Engine.MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_2"'
+   DependentFunctionExpressionCandidates(3)=/Script/Engine.MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_3"'
+   DependentFunctionExpressionCandidates(4)=/Script/Engine.MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_4"'
+   DependentFunctionExpressionCandidates(5)=/Script/Engine.MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_5"'
+   EditorOnlyData=/Script/Engine.MaterialFunctionEditorOnlyData'"MF_GetStencilBasedColorEditorOnlyData"'
+   StateId=DF81E2E34E59DC8FEC456892F2100517
+   CombinedInputTypes=15
+   CombinedOutputTypes=15
+   ThumbnailInfo=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+End Object

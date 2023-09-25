@@ -1,0 +1,141 @@
+Begin Object Class=/Script/Engine.MaterialFunction Name="MF_DepthThreshholdModulation"
+   Begin Object Class=/Script/Engine.MaterialFunctionEditorOnlyData Name="MF_DepthThreshholdModulationEditorOnlyData"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAdd Name="MaterialExpressionAdd_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAdd Name="MaterialExpressionAdd_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionDivide Name="MaterialExpressionDivide_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFresnel Name="MaterialExpressionFresnel_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionOutput Name="MaterialExpressionFunctionOutput_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionSaturate Name="MaterialExpressionSaturate_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionSubtract Name="MaterialExpressionSubtract_0"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Class=/Script/Engine.Material Name="Material_0"
+      Begin Object Class=/Script/Engine.MaterialEditorOnlyData Name="Material_0EditorOnlyData"
+      End Object
+   End Object
+   Begin Object Name="MF_DepthThreshholdModulationEditorOnlyData"
+      ExpressionCollection=(Expressions=(/Script/Engine.MaterialExpressionFunctionOutput'"MF_DepthThreshholdModulation:MaterialExpressionFunctionOutput_0"',/Script/Engine.MaterialExpressionFresnel'"MF_DepthThreshholdModulation:MaterialExpressionFresnel_0"',/Script/Engine.MaterialExpressionScalarParameter'"MF_DepthThreshholdModulation:MaterialExpressionScalarParameter_0"',/Script/Engine.MaterialExpressionSubtract'"MF_DepthThreshholdModulation:MaterialExpressionSubtract_0"',/Script/Engine.MaterialExpressionDivide'"MF_DepthThreshholdModulation:MaterialExpressionDivide_0"',/Script/Engine.MaterialExpressionScalarParameter'"MF_DepthThreshholdModulation:MaterialExpressionScalarParameter_1"',/Script/Engine.MaterialExpressionAdd'"MF_DepthThreshholdModulation:MaterialExpressionAdd_0"',/Script/Engine.MaterialExpressionSaturate'"MF_DepthThreshholdModulation:MaterialExpressionSaturate_0"',/Script/Engine.MaterialExpressionMultiply'"MF_DepthThreshholdModulation:MaterialExpressionMultiply_0"',/Script/Engine.MaterialExpressionScalarParameter'"MF_DepthThreshholdModulation:MaterialExpressionScalarParameter_2"',/Script/Engine.MaterialExpressionAdd'"MF_DepthThreshholdModulation:MaterialExpressionAdd_1"'))
+   End Object
+   Begin Object Name="MaterialExpressionAdd_0"
+      A=(Expression=/Script/Engine.MaterialExpressionDivide'"MF_DepthThreshholdModulation:MaterialExpressionDivide_0"')
+      MaterialExpressionEditorX=35
+      MaterialExpressionEditorY=417
+      MaterialExpressionGuid=2A26DCDB4D0FE686D5FCD5A2844D53BB
+      Function=/Script/Engine.MaterialFunction'"MF_DepthThreshholdModulation"'
+   End Object
+   Begin Object Name="MaterialExpressionAdd_1"
+      A=(Expression=/Script/Engine.MaterialExpressionMultiply'"MF_DepthThreshholdModulation:MaterialExpressionMultiply_0"')
+      MaterialExpressionEditorX=693
+      MaterialExpressionEditorY=529
+      MaterialExpressionGuid=BDA2E4104AFABE54F51D0EBC133A4133
+      Function=/Script/Engine.MaterialFunction'"MF_DepthThreshholdModulation"'
+   End Object
+   Begin Object Name="MaterialExpressionDivide_0"
+      A=(Expression=/Script/Engine.MaterialExpressionSubtract'"MF_DepthThreshholdModulation:MaterialExpressionSubtract_0"')
+      B=(Expression=/Script/Engine.MaterialExpressionScalarParameter'"MF_DepthThreshholdModulation:MaterialExpressionScalarParameter_1"')
+      MaterialExpressionEditorX=-96
+      MaterialExpressionEditorY=417
+      MaterialExpressionGuid=2B1AEBB640A7C95E022774B64E534A08
+      Function=/Script/Engine.MaterialFunction'"MF_DepthThreshholdModulation"'
+   End Object
+   Begin Object Name="MaterialExpressionFresnel_0"
+      ExponentIn=(Expression=/Script/Engine.MaterialExpressionScalarParameter'"MF_DepthThreshholdModulation:MaterialExpressionScalarParameter_0"')
+      MaterialExpressionEditorX=-608
+      MaterialExpressionEditorY=417
+      MaterialExpressionGuid=F8F749D9438223B7E58FCF97D81ACD30
+      Function=/Script/Engine.MaterialFunction'"MF_DepthThreshholdModulation"'
+   End Object
+   Begin Object Name="MaterialExpressionFunctionOutput_0"
+      A=(Expression=/Script/Engine.MaterialExpressionAdd'"MF_DepthThreshholdModulation:MaterialExpressionAdd_1"')
+      bLastPreviewed=True
+      Id=51570FEC4C3D429F9194BD8044D24A3C
+      MaterialExpressionEditorX=1104
+      MaterialExpressionEditorY=496
+      MaterialExpressionGuid=D460DBE5473A137FED7AE6A3ACD0A8DD
+      Function=/Script/Engine.MaterialFunction'"MF_DepthThreshholdModulation"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_0"
+      A=(Expression=/Script/Engine.MaterialExpressionSaturate'"MF_DepthThreshholdModulation:MaterialExpressionSaturate_0"')
+      B=(Expression=/Script/Engine.MaterialExpressionScalarParameter'"MF_DepthThreshholdModulation:MaterialExpressionScalarParameter_2"')
+      MaterialExpressionEditorX=496
+      MaterialExpressionEditorY=529
+      MaterialExpressionGuid=CB23EA6D40C5D4EE10AA84B5AE15EAEB
+      Function=/Script/Engine.MaterialFunction'"MF_DepthThreshholdModulation"'
+   End Object
+   Begin Object Name="MaterialExpressionSaturate_0"
+      Input=(Expression=/Script/Engine.MaterialExpressionAdd'"MF_DepthThreshholdModulation:MaterialExpressionAdd_0"')
+      MaterialExpressionEditorX=160
+      MaterialExpressionEditorY=416
+      MaterialExpressionGuid=3B1F0E7B4F7C6B062F7AC1B6551C8C0F
+      Function=/Script/Engine.MaterialFunction'"MF_DepthThreshholdModulation"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_0"
+      DefaultValue=5.000000
+      ParameterName="FresnelPower"
+      ExpressionGUID=1B17F1474473377EBCA58290E103E110
+      MaterialExpressionEditorX=-816
+      MaterialExpressionEditorY=401
+      MaterialExpressionGuid=2041A6D045554D528E9451B00C2F2E1E
+      Function=/Script/Engine.MaterialFunction'"MF_DepthThreshholdModulation"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_1"
+      DefaultValue=1.000000
+      ParameterName="GrazingAngleMaskPower"
+      ExpressionGUID=D9501F27440CCD058EEC41B573D9DFA0
+      MaterialExpressionEditorX=-352
+      MaterialExpressionEditorY=544
+      MaterialExpressionGuid=BA3BA8A64C05C698959B828323C0F869
+      Function=/Script/Engine.MaterialFunction'"MF_DepthThreshholdModulation"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_2"
+      DefaultValue=10.000000
+      ParameterName="GrazingAngleModulationFactor"
+      ExpressionGUID=B1CAC9234C6FB90F28738B8605622C7A
+      MaterialExpressionEditorX=96
+      MaterialExpressionEditorY=544
+      MaterialExpressionGuid=4721A5F347672E9778DA41AD7D1F4F01
+      Function=/Script/Engine.MaterialFunction'"MF_DepthThreshholdModulation"'
+   End Object
+   Begin Object Name="MaterialExpressionSubtract_0"
+      A=(Expression=/Script/Engine.MaterialExpressionFresnel'"MF_DepthThreshholdModulation:MaterialExpressionFresnel_0"')
+      MaterialExpressionEditorX=-340
+      MaterialExpressionEditorY=417
+      MaterialExpressionGuid=30D07EDF4B3502AEFDA6BDAF7110EA3B
+      Function=/Script/Engine.MaterialFunction'"MF_DepthThreshholdModulation"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="Material_0"
+      Begin Object Name="Material_0EditorOnlyData"
+         EmissiveColor=(Expression=/Script/Engine.MaterialExpressionFunctionOutput'"MF_DepthThreshholdModulation:MaterialExpressionFunctionOutput_0"')
+         ExpressionCollection=(Expressions=(/Script/Engine.MaterialExpressionFunctionOutput'"MF_DepthThreshholdModulation:MaterialExpressionFunctionOutput_0"',/Script/Engine.MaterialExpressionFresnel'"MF_DepthThreshholdModulation:MaterialExpressionFresnel_0"',/Script/Engine.MaterialExpressionScalarParameter'"MF_DepthThreshholdModulation:MaterialExpressionScalarParameter_0"',/Script/Engine.MaterialExpressionSubtract'"MF_DepthThreshholdModulation:MaterialExpressionSubtract_0"',/Script/Engine.MaterialExpressionDivide'"MF_DepthThreshholdModulation:MaterialExpressionDivide_0"',/Script/Engine.MaterialExpressionScalarParameter'"MF_DepthThreshholdModulation:MaterialExpressionScalarParameter_1"',/Script/Engine.MaterialExpressionAdd'"MF_DepthThreshholdModulation:MaterialExpressionAdd_0"',/Script/Engine.MaterialExpressionSaturate'"MF_DepthThreshholdModulation:MaterialExpressionSaturate_0"',/Script/Engine.MaterialExpressionMultiply'"MF_DepthThreshholdModulation:MaterialExpressionMultiply_0"',/Script/Engine.MaterialExpressionScalarParameter'"MF_DepthThreshholdModulation:MaterialExpressionScalarParameter_2"',/Script/Engine.MaterialExpressionAdd'"MF_DepthThreshholdModulation:MaterialExpressionAdd_1"'))
+      End Object
+      ShadingModel=MSM_Unlit
+      ShadingModels=(ShadingModelField=1)
+      bCanMaskedBeAssumedOpaque=True
+      StateId=9E8835AF49DCAE70E6D60894882A65BC
+      EditorOnlyData=/Script/Engine.MaterialEditorOnlyData'"Material_0EditorOnlyData"'
+      ThumbnailInfo=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive'"MF_DepthThreshholdModulation:SceneThumbnailInfoWithPrimitive_0"'
+      LightingGuid=4E337C7B412438CACEC68C9964EF69ED
+   End Object
+   EditorOnlyData=/Script/Engine.MaterialFunctionEditorOnlyData'"MF_DepthThreshholdModulationEditorOnlyData"'
+   StateId=ED704DC1428FAF8B201268B952E7B68E
+   CombinedOutputTypes=15
+   ThumbnailInfo=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+End Object

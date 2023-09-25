@@ -1,0 +1,272 @@
+Begin Object Class=/Script/Engine.MaterialFunction Name="MF_ThicknessModulation"
+   Begin Object Class=/Script/Engine.MaterialFunctionEditorOnlyData Name="MF_ThicknessModulationEditorOnlyData"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAdd Name="MaterialExpressionAdd_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionDivide Name="MaterialExpressionDivide_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionInput Name="MaterialExpressionFunctionInput_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionInput Name="MaterialExpressionFunctionInput_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionInput Name="MaterialExpressionFunctionInput_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionOutput Name="MaterialExpressionFunctionOutput_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMin Name="MaterialExpressionMin_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMin Name="MaterialExpressionMin_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMin Name="MaterialExpressionMin_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMin Name="MaterialExpressionMin_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMin Name="MaterialExpressionMin_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionReroute Name="MaterialExpressionReroute_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionSceneDepth Name="MaterialExpressionSceneDepth_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionSceneDepth Name="MaterialExpressionSceneDepth_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionSceneDepth Name="MaterialExpressionSceneDepth_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionSceneDepth Name="MaterialExpressionSceneDepth_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionSceneDepth Name="MaterialExpressionSceneDepth_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionSubtract Name="MaterialExpressionSubtract_0"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Class=/Script/Engine.Material Name="Material_0"
+      Begin Object Class=/Script/Engine.MaterialEditorOnlyData Name="Material_0EditorOnlyData"
+      End Object
+   End Object
+   Begin Object Name="MF_ThicknessModulationEditorOnlyData"
+      ExpressionCollection=(Expressions=(/Script/Engine.MaterialExpressionFunctionOutput'"MF_ThicknessModulation:MaterialExpressionFunctionOutput_0"',/Script/Engine.MaterialExpressionFunctionInput'"MF_ThicknessModulation:MaterialExpressionFunctionInput_0"',/Script/Engine.MaterialExpressionConstant'"MF_ThicknessModulation:MaterialExpressionConstant_0"',/Script/Engine.MaterialExpressionFunctionInput'"MF_ThicknessModulation:MaterialExpressionFunctionInput_1"',/Script/Engine.MaterialExpressionConstant'"MF_ThicknessModulation:MaterialExpressionConstant_1"',/Script/Engine.MaterialExpressionFunctionInput'"MF_ThicknessModulation:MaterialExpressionFunctionInput_2"',/Script/Engine.MaterialExpressionConstant'"MF_ThicknessModulation:MaterialExpressionConstant_2"',/Script/Engine.MaterialExpressionSubtract'"MF_ThicknessModulation:MaterialExpressionSubtract_0"',/Script/Engine.MaterialExpressionDivide'"MF_ThicknessModulation:MaterialExpressionDivide_0"',/Script/Engine.MaterialExpressionAdd'"MF_ThicknessModulation:MaterialExpressionAdd_0"',/Script/Engine.MaterialExpressionSceneDepth'"MF_ThicknessModulation:MaterialExpressionSceneDepth_0"',/Script/Engine.MaterialExpressionMin'"MF_ThicknessModulation:MaterialExpressionMin_0"',/Script/Engine.MaterialExpressionMultiply'"MF_ThicknessModulation:MaterialExpressionMultiply_0"',/Script/Engine.MaterialExpressionMaterialFunctionCall'"MF_ThicknessModulation:MaterialExpressionMaterialFunctionCall_0"',/Script/Engine.MaterialExpressionSceneDepth'"MF_ThicknessModulation:MaterialExpressionSceneDepth_1"',/Script/Engine.MaterialExpressionSceneDepth'"MF_ThicknessModulation:MaterialExpressionSceneDepth_3"',/Script/Engine.MaterialExpressionSceneDepth'"MF_ThicknessModulation:MaterialExpressionSceneDepth_4"',/Script/Engine.MaterialExpressionSceneDepth'"MF_ThicknessModulation:MaterialExpressionSceneDepth_5"',/Script/Engine.MaterialExpressionMin'"MF_ThicknessModulation:MaterialExpressionMin_1"',/Script/Engine.MaterialExpressionMin'"MF_ThicknessModulation:MaterialExpressionMin_2"',/Script/Engine.MaterialExpressionMin'"MF_ThicknessModulation:MaterialExpressionMin_3"',/Script/Engine.MaterialExpressionMin'"MF_ThicknessModulation:MaterialExpressionMin_4"',/Script/Engine.MaterialExpressionReroute'"MF_ThicknessModulation:MaterialExpressionReroute_0"'))
+   End Object
+   Begin Object Name="MaterialExpressionAdd_0"
+      A=(Expression=/Script/Engine.MaterialExpressionFunctionInput'"MF_ThicknessModulation:MaterialExpressionFunctionInput_0"')
+      B=(Expression=/Script/Engine.MaterialExpressionMultiply'"MF_ThicknessModulation:MaterialExpressionMultiply_0"')
+      MaterialExpressionEditorX=-32
+      MaterialExpressionEditorY=432
+      MaterialExpressionGuid=E2B27D864A50E626A84F1E85C049DEC8
+      Function=/Script/Engine.MaterialFunction'"MF_ThicknessModulation"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_0"
+      R=2.000000
+      MaterialExpressionEditorX=-1840
+      MaterialExpressionEditorY=416
+      MaterialExpressionGuid=588E79AA43A25CFF0D5E678554E81D74
+      Function=/Script/Engine.MaterialFunction'"MF_ThicknessModulation"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_1"
+      R=1.000000
+      MaterialExpressionEditorX=-880
+      MaterialExpressionEditorY=512
+      MaterialExpressionGuid=588E79AA43A25CFF0D5E678554E81D74
+      Function=/Script/Engine.MaterialFunction'"MF_ThicknessModulation"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_2"
+      R=5000.000000
+      MaterialExpressionEditorX=-1104
+      MaterialExpressionEditorY=832
+      MaterialExpressionGuid=588E79AA43A25CFF0D5E678554E81D74
+      Function=/Script/Engine.MaterialFunction'"MF_ThicknessModulation"'
+   End Object
+   Begin Object Name="MaterialExpressionDivide_0"
+      A=(Expression=/Script/Engine.MaterialExpressionSubtract'"MF_ThicknessModulation:MaterialExpressionSubtract_0"')
+      B=(Expression=/Script/Engine.MaterialExpressionFunctionInput'"MF_ThicknessModulation:MaterialExpressionFunctionInput_2"')
+      MaterialExpressionEditorX=-352
+      MaterialExpressionEditorY=800
+      MaterialExpressionGuid=F05BB6A24E50FFB6B6A553937CFD2917
+      Function=/Script/Engine.MaterialFunction'"MF_ThicknessModulation"'
+   End Object
+   Begin Object Name="MaterialExpressionFunctionInput_0"
+      Preview=(Expression=/Script/Engine.MaterialExpressionConstant'"MF_ThicknessModulation:MaterialExpressionConstant_0"')
+      InputName="MaxThickness"
+      Id=0851EC3F417DAF941135759A2B1A833F
+      InputType=FunctionInput_Scalar
+      MaterialExpressionEditorX=-1632
+      MaterialExpressionEditorY=432
+      MaterialExpressionGuid=99284DF342645580A441A8BE1DF34B26
+      Function=/Script/Engine.MaterialFunction'"MF_ThicknessModulation"'
+   End Object
+   Begin Object Name="MaterialExpressionFunctionInput_1"
+      Preview=(Expression=/Script/Engine.MaterialExpressionConstant'"MF_ThicknessModulation:MaterialExpressionConstant_1"')
+      InputName="MinThickness"
+      Id=65C0488249DC184D2D77DCAE4D40354E
+      InputType=FunctionInput_Scalar
+      MaterialExpressionEditorX=-720
+      MaterialExpressionEditorY=496
+      MaterialExpressionGuid=99284DF342645580A441A8BE1DF34B26
+      Function=/Script/Engine.MaterialFunction'"MF_ThicknessModulation"'
+   End Object
+   Begin Object Name="MaterialExpressionFunctionInput_2"
+      Preview=(Expression=/Script/Engine.MaterialExpressionConstant'"MF_ThicknessModulation:MaterialExpressionConstant_2"')
+      InputName="MaxDepth"
+      Id=4B99CC9442DF578C19CA018D40E3C261
+      InputType=FunctionInput_Scalar
+      MaterialExpressionEditorX=-864
+      MaterialExpressionEditorY=832
+      MaterialExpressionGuid=99284DF342645580A441A8BE1DF34B26
+      Function=/Script/Engine.MaterialFunction'"MF_ThicknessModulation"'
+   End Object
+   Begin Object Name="MaterialExpressionFunctionOutput_0"
+      A=(Expression=/Script/Engine.MaterialExpressionAdd'"MF_ThicknessModulation:MaterialExpressionAdd_0"')
+      bLastPreviewed=True
+      Id=E982D7B44A0DBCC422EE7394DC70FBA2
+      MaterialExpressionEditorX=200
+      MaterialExpressionEditorY=300
+      MaterialExpressionGuid=F6704669404AE89C3010FD8125E82B95
+      Function=/Script/Engine.MaterialFunction'"MF_ThicknessModulation"'
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_0"
+      MaterialFunction=/Script/Engine.MaterialFunction'"/Game/PostProcess/Outline+Functions/MF_GetKernel.MF_GetKernel"'
+      FunctionInputs(0)=(ExpressionInputId=D88E62DA4CD9192608BEF1BBC366C0AF,Input=(Expression=/Script/Engine.MaterialExpressionFunctionInput'"MF_ThicknessModulation:MaterialExpressionFunctionInput_0"',InputName="Width"))
+      FunctionOutputs(0)=(ExpressionOutputId=22B370C442A395BA1C94E8BDD52A83A5,Output=(OutputName="Center"))
+      FunctionOutputs(1)=(ExpressionOutputId=1B7D3D8A4FA27CE873F202BE306AD7C8,Output=(OutputName="Left"))
+      FunctionOutputs(2)=(ExpressionOutputId=F878CFFD478B9E8686DBB88B9A27D807,Output=(OutputName="Right"))
+      FunctionOutputs(3)=(ExpressionOutputId=72BDC5A9455049C8AB20B48A276E76F8,Output=(OutputName="Up"))
+      FunctionOutputs(4)=(ExpressionOutputId=E14AFED541CBFCB6A99DE8AFFB0686CD,Output=(OutputName="Down"))
+      MaterialExpressionEditorX=-1264
+      MaterialExpressionEditorY=1264
+      MaterialExpressionGuid=C707043D4B6E1C88A7F6D2849BD5D733
+      Function=/Script/Engine.MaterialFunction'"MF_ThicknessModulation"'
+      Outputs(0)=(OutputName="Center")
+      Outputs(1)=(OutputName="Left")
+      Outputs(2)=(OutputName="Right")
+      Outputs(3)=(OutputName="Up")
+      Outputs(4)=(OutputName="Down")
+   End Object
+   Begin Object Name="MaterialExpressionMin_0"
+      A=(Expression=/Script/Engine.MaterialExpressionFunctionInput'"MF_ThicknessModulation:MaterialExpressionFunctionInput_2"')
+      B=(Expression=/Script/Engine.MaterialExpressionMin'"MF_ThicknessModulation:MaterialExpressionMin_4"')
+      MaterialExpressionEditorX=-399
+      MaterialExpressionEditorY=983
+      MaterialExpressionGuid=B1738CD24E272D1F96AA0C99909EDE03
+      Function=/Script/Engine.MaterialFunction'"MF_ThicknessModulation"'
+   End Object
+   Begin Object Name="MaterialExpressionMin_1"
+      A=(Expression=/Script/Engine.MaterialExpressionSceneDepth'"MF_ThicknessModulation:MaterialExpressionSceneDepth_1"',Mask=1,MaskR=1)
+      B=(Expression=/Script/Engine.MaterialExpressionSceneDepth'"MF_ThicknessModulation:MaterialExpressionSceneDepth_5"',Mask=1,MaskR=1)
+      MaterialExpressionEditorX=-800
+      MaterialExpressionEditorY=1504
+      MaterialExpressionGuid=B1738CD24E272D1F96AA0C99909EDE03
+      Function=/Script/Engine.MaterialFunction'"MF_ThicknessModulation"'
+   End Object
+   Begin Object Name="MaterialExpressionMin_2"
+      A=(Expression=/Script/Engine.MaterialExpressionSceneDepth'"MF_ThicknessModulation:MaterialExpressionSceneDepth_4"',Mask=1,MaskR=1)
+      B=(Expression=/Script/Engine.MaterialExpressionSceneDepth'"MF_ThicknessModulation:MaterialExpressionSceneDepth_3"',Mask=1,MaskR=1)
+      MaterialExpressionEditorX=-800
+      MaterialExpressionEditorY=1296
+      MaterialExpressionGuid=B1738CD24E272D1F96AA0C99909EDE03
+      Function=/Script/Engine.MaterialFunction'"MF_ThicknessModulation"'
+   End Object
+   Begin Object Name="MaterialExpressionMin_3"
+      A=(Expression=/Script/Engine.MaterialExpressionMin'"MF_ThicknessModulation:MaterialExpressionMin_2"')
+      B=(Expression=/Script/Engine.MaterialExpressionMin'"MF_ThicknessModulation:MaterialExpressionMin_1"')
+      MaterialExpressionEditorX=-640
+      MaterialExpressionEditorY=1392
+      MaterialExpressionGuid=AFF800DE4C8FBFC7A960DC98BE9A960A
+      Function=/Script/Engine.MaterialFunction'"MF_ThicknessModulation"'
+   End Object
+   Begin Object Name="MaterialExpressionMin_4"
+      A=(Expression=/Script/Engine.MaterialExpressionSceneDepth'"MF_ThicknessModulation:MaterialExpressionSceneDepth_0"',Mask=1,MaskR=1)
+      B=(Expression=/Script/Engine.MaterialExpressionMin'"MF_ThicknessModulation:MaterialExpressionMin_3"')
+      MaterialExpressionEditorX=-480
+      MaterialExpressionEditorY=1104
+      MaterialExpressionGuid=AFF800DE4C8FBFC7A960DC98BE9A960A
+      Function=/Script/Engine.MaterialFunction'"MF_ThicknessModulation"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_0"
+      A=(Expression=/Script/Engine.MaterialExpressionDivide'"MF_ThicknessModulation:MaterialExpressionDivide_0"')
+      B=(Expression=/Script/Engine.MaterialExpressionMin'"MF_ThicknessModulation:MaterialExpressionMin_0"')
+      MaterialExpressionEditorX=-176
+      MaterialExpressionEditorY=864
+      MaterialExpressionGuid=A556F17D416EC4CA95E915946AC63B64
+      Function=/Script/Engine.MaterialFunction'"MF_ThicknessModulation"'
+   End Object
+   Begin Object Name="MaterialExpressionReroute_0"
+      Input=(Expression=/Script/Engine.MaterialExpressionFunctionInput'"MF_ThicknessModulation:MaterialExpressionFunctionInput_0"')
+      MaterialExpressionEditorX=-960
+      MaterialExpressionEditorY=704
+      MaterialExpressionGuid=AB83EE864A10605108D13097642C0AF4
+      Function=/Script/Engine.MaterialFunction'"MF_ThicknessModulation"'
+   End Object
+   Begin Object Name="MaterialExpressionSceneDepth_0"
+      Input=(Expression=/Script/Engine.MaterialExpressionMaterialFunctionCall'"MF_ThicknessModulation:MaterialExpressionMaterialFunctionCall_0"')
+      MaterialExpressionEditorX=-672
+      MaterialExpressionEditorY=1056
+      MaterialExpressionGuid=0C7F0E9F4C48A630CFA06BBAC7220E74
+      Function=/Script/Engine.MaterialFunction'"MF_ThicknessModulation"'
+   End Object
+   Begin Object Name="MaterialExpressionSceneDepth_1"
+      Input=(Expression=/Script/Engine.MaterialExpressionMaterialFunctionCall'"MF_ThicknessModulation:MaterialExpressionMaterialFunctionCall_0"',OutputIndex=3)
+      MaterialExpressionEditorX=-960
+      MaterialExpressionEditorY=1440
+      MaterialExpressionGuid=0C7F0E9F4C48A630CFA06BBAC7220E74
+      Function=/Script/Engine.MaterialFunction'"MF_ThicknessModulation"'
+   End Object
+   Begin Object Name="MaterialExpressionSceneDepth_3"
+      Input=(Expression=/Script/Engine.MaterialExpressionMaterialFunctionCall'"MF_ThicknessModulation:MaterialExpressionMaterialFunctionCall_0"',OutputIndex=2)
+      MaterialExpressionEditorX=-960
+      MaterialExpressionEditorY=1344
+      MaterialExpressionGuid=0C7F0E9F4C48A630CFA06BBAC7220E74
+      Function=/Script/Engine.MaterialFunction'"MF_ThicknessModulation"'
+   End Object
+   Begin Object Name="MaterialExpressionSceneDepth_4"
+      Input=(Expression=/Script/Engine.MaterialExpressionMaterialFunctionCall'"MF_ThicknessModulation:MaterialExpressionMaterialFunctionCall_0"',OutputIndex=1)
+      MaterialExpressionEditorX=-960
+      MaterialExpressionEditorY=1248
+      MaterialExpressionGuid=0C7F0E9F4C48A630CFA06BBAC7220E74
+      Function=/Script/Engine.MaterialFunction'"MF_ThicknessModulation"'
+   End Object
+   Begin Object Name="MaterialExpressionSceneDepth_5"
+      Input=(Expression=/Script/Engine.MaterialExpressionMaterialFunctionCall'"MF_ThicknessModulation:MaterialExpressionMaterialFunctionCall_0"',OutputIndex=4)
+      MaterialExpressionEditorX=-960
+      MaterialExpressionEditorY=1552
+      MaterialExpressionGuid=0C7F0E9F4C48A630CFA06BBAC7220E74
+      Function=/Script/Engine.MaterialFunction'"MF_ThicknessModulation"'
+   End Object
+   Begin Object Name="MaterialExpressionSubtract_0"
+      A=(Expression=/Script/Engine.MaterialExpressionFunctionInput'"MF_ThicknessModulation:MaterialExpressionFunctionInput_1"')
+      B=(Expression=/Script/Engine.MaterialExpressionReroute'"MF_ThicknessModulation:MaterialExpressionReroute_0"')
+      MaterialExpressionEditorX=-384
+      MaterialExpressionEditorY=640
+      MaterialExpressionGuid=903B731946897F7A3567018E173C0F86
+      Function=/Script/Engine.MaterialFunction'"MF_ThicknessModulation"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="Material_0"
+      Begin Object Name="Material_0EditorOnlyData"
+         EmissiveColor=(Expression=/Script/Engine.MaterialExpressionFunctionOutput'"MF_ThicknessModulation:MaterialExpressionFunctionOutput_0"')
+         ExpressionCollection=(Expressions=(/Script/Engine.MaterialExpressionFunctionOutput'"MF_ThicknessModulation:MaterialExpressionFunctionOutput_0"',/Script/Engine.MaterialExpressionFunctionInput'"MF_ThicknessModulation:MaterialExpressionFunctionInput_0"',/Script/Engine.MaterialExpressionConstant'"MF_ThicknessModulation:MaterialExpressionConstant_0"',/Script/Engine.MaterialExpressionFunctionInput'"MF_ThicknessModulation:MaterialExpressionFunctionInput_1"',/Script/Engine.MaterialExpressionConstant'"MF_ThicknessModulation:MaterialExpressionConstant_1"',/Script/Engine.MaterialExpressionFunctionInput'"MF_ThicknessModulation:MaterialExpressionFunctionInput_2"',/Script/Engine.MaterialExpressionConstant'"MF_ThicknessModulation:MaterialExpressionConstant_2"',/Script/Engine.MaterialExpressionSubtract'"MF_ThicknessModulation:MaterialExpressionSubtract_0"',/Script/Engine.MaterialExpressionDivide'"MF_ThicknessModulation:MaterialExpressionDivide_0"',/Script/Engine.MaterialExpressionAdd'"MF_ThicknessModulation:MaterialExpressionAdd_0"',/Script/Engine.MaterialExpressionSceneDepth'"MF_ThicknessModulation:MaterialExpressionSceneDepth_0"',/Script/Engine.MaterialExpressionMin'"MF_ThicknessModulation:MaterialExpressionMin_0"',/Script/Engine.MaterialExpressionMultiply'"MF_ThicknessModulation:MaterialExpressionMultiply_0"',/Script/Engine.MaterialExpressionMaterialFunctionCall'"MF_ThicknessModulation:MaterialExpressionMaterialFunctionCall_0"',/Script/Engine.MaterialExpressionSceneDepth'"MF_ThicknessModulation:MaterialExpressionSceneDepth_1"',/Script/Engine.MaterialExpressionSceneDepth'"MF_ThicknessModulation:MaterialExpressionSceneDepth_3"',/Script/Engine.MaterialExpressionSceneDepth'"MF_ThicknessModulation:MaterialExpressionSceneDepth_4"',/Script/Engine.MaterialExpressionSceneDepth'"MF_ThicknessModulation:MaterialExpressionSceneDepth_5"',/Script/Engine.MaterialExpressionMin'"MF_ThicknessModulation:MaterialExpressionMin_1"',/Script/Engine.MaterialExpressionMin'"MF_ThicknessModulation:MaterialExpressionMin_2"',/Script/Engine.MaterialExpressionMin'"MF_ThicknessModulation:MaterialExpressionMin_3"',/Script/Engine.MaterialExpressionMin'"MF_ThicknessModulation:MaterialExpressionMin_4"',/Script/Engine.MaterialExpressionReroute'"MF_ThicknessModulation:MaterialExpressionReroute_0"'))
+      End Object
+      ShadingModel=MSM_Unlit
+      ShadingModels=(ShadingModelField=1)
+      bCanMaskedBeAssumedOpaque=True
+      StateId=4DEFDB894C11FA9B33F4C1B259949198
+      EditorOnlyData=/Script/Engine.MaterialEditorOnlyData'"Material_0EditorOnlyData"'
+      ThumbnailInfo=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive'"MF_ThicknessModulation:SceneThumbnailInfoWithPrimitive_0"'
+      LightingGuid=726764664F00E3FF5DB5F1B4C867517A
+   End Object
+   DependentFunctionExpressionCandidates(0)=/Script/Engine.MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_0"'
+   EditorOnlyData=/Script/Engine.MaterialFunctionEditorOnlyData'"MF_ThicknessModulationEditorOnlyData"'
+   StateId=3D496EFB465A6CC6FB02039ED8D67958
+   CombinedInputTypes=15
+   CombinedOutputTypes=15
+   ThumbnailInfo=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+End Object

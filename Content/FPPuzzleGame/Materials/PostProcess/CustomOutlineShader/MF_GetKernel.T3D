@@ -1,0 +1,260 @@
+Begin Object Class=/Script/Engine.MaterialFunction Name="MF_GetKernel"
+   Begin Object Class=/Script/Engine.MaterialFunctionEditorOnlyData Name="MF_GetKernelEditorOnlyData"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAdd Name="MaterialExpressionAdd_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAdd Name="MaterialExpressionAdd_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAdd Name="MaterialExpressionAdd_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAdd Name="MaterialExpressionAdd_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant2Vector Name="MaterialExpressionConstant2Vector_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant2Vector Name="MaterialExpressionConstant2Vector_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionInput Name="MaterialExpressionFunctionInput_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionOutput Name="MaterialExpressionFunctionOutput_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionOutput Name="MaterialExpressionFunctionOutput_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionOutput Name="MaterialExpressionFunctionOutput_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionOutput Name="MaterialExpressionFunctionOutput_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionOutput Name="MaterialExpressionFunctionOutput_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_6"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_7"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_8"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionSceneTexelSize Name="MaterialExpressionSceneTexelSize_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureCoordinate Name="MaterialExpressionTextureCoordinate_0"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Class=/Script/Engine.Material Name="Material_0"
+      Begin Object Class=/Script/Engine.MaterialEditorOnlyData Name="Material_0EditorOnlyData"
+      End Object
+   End Object
+   Begin Object Name="MF_GetKernelEditorOnlyData"
+      ExpressionCollection=(Expressions=(/Script/Engine.MaterialExpressionFunctionOutput'"MF_GetKernel:MaterialExpressionFunctionOutput_0"',/Script/Engine.MaterialExpressionFunctionOutput'"MF_GetKernel:MaterialExpressionFunctionOutput_1"',/Script/Engine.MaterialExpressionFunctionOutput'"MF_GetKernel:MaterialExpressionFunctionOutput_2"',/Script/Engine.MaterialExpressionFunctionOutput'"MF_GetKernel:MaterialExpressionFunctionOutput_3"',/Script/Engine.MaterialExpressionFunctionOutput'"MF_GetKernel:MaterialExpressionFunctionOutput_4"',/Script/Engine.MaterialExpressionFunctionInput'"MF_GetKernel:MaterialExpressionFunctionInput_0"',/Script/Engine.MaterialExpressionConstant'"MF_GetKernel:MaterialExpressionConstant_0"',/Script/Engine.MaterialExpressionTextureCoordinate'"MF_GetKernel:MaterialExpressionTextureCoordinate_0"',/Script/Engine.MaterialExpressionConstant2Vector'"MF_GetKernel:MaterialExpressionConstant2Vector_1"',/Script/Engine.MaterialExpressionMultiply'"MF_GetKernel:MaterialExpressionMultiply_0"',/Script/Engine.MaterialExpressionMultiply'"MF_GetKernel:MaterialExpressionMultiply_1"',/Script/Engine.MaterialExpressionSceneTexelSize'"MF_GetKernel:MaterialExpressionSceneTexelSize_0"',/Script/Engine.MaterialExpressionMultiply'"MF_GetKernel:MaterialExpressionMultiply_2"',/Script/Engine.MaterialExpressionAdd'"MF_GetKernel:MaterialExpressionAdd_0"',/Script/Engine.MaterialExpressionAdd'"MF_GetKernel:MaterialExpressionAdd_1"',/Script/Engine.MaterialExpressionMultiply'"MF_GetKernel:MaterialExpressionMultiply_6"',/Script/Engine.MaterialExpressionMultiply'"MF_GetKernel:MaterialExpressionMultiply_7"',/Script/Engine.MaterialExpressionMultiply'"MF_GetKernel:MaterialExpressionMultiply_8"',/Script/Engine.MaterialExpressionAdd'"MF_GetKernel:MaterialExpressionAdd_4"',/Script/Engine.MaterialExpressionAdd'"MF_GetKernel:MaterialExpressionAdd_5"',/Script/Engine.MaterialExpressionConstant2Vector'"MF_GetKernel:MaterialExpressionConstant2Vector_4"'))
+   End Object
+   Begin Object Name="MaterialExpressionAdd_0"
+      A=(Expression=/Script/Engine.MaterialExpressionTextureCoordinate'"MF_GetKernel:MaterialExpressionTextureCoordinate_0"')
+      B=(Expression=/Script/Engine.MaterialExpressionMultiply'"MF_GetKernel:MaterialExpressionMultiply_2"')
+      MaterialExpressionEditorX=64
+      MaterialExpressionEditorY=416
+      MaterialExpressionGuid=9BF97FCD4EF817AFD1C7D3A3E31BF882
+      Function=/Script/Engine.MaterialFunction'"MF_GetKernel"'
+   End Object
+   Begin Object Name="MaterialExpressionAdd_1"
+      A=(Expression=/Script/Engine.MaterialExpressionTextureCoordinate'"MF_GetKernel:MaterialExpressionTextureCoordinate_0"')
+      B=(Expression=/Script/Engine.MaterialExpressionMultiply'"MF_GetKernel:MaterialExpressionMultiply_1"')
+      MaterialExpressionEditorX=112
+      MaterialExpressionEditorY=592
+      MaterialExpressionGuid=FE4E60274CD3A470465732950B22548A
+      Function=/Script/Engine.MaterialFunction'"MF_GetKernel"'
+   End Object
+   Begin Object Name="MaterialExpressionAdd_4"
+      A=(Expression=/Script/Engine.MaterialExpressionTextureCoordinate'"MF_GetKernel:MaterialExpressionTextureCoordinate_0"')
+      B=(Expression=/Script/Engine.MaterialExpressionMultiply'"MF_GetKernel:MaterialExpressionMultiply_8"')
+      MaterialExpressionEditorX=368
+      MaterialExpressionEditorY=768
+      MaterialExpressionGuid=9BF97FCD4EF817AFD1C7D3A3E31BF882
+      Function=/Script/Engine.MaterialFunction'"MF_GetKernel"'
+   End Object
+   Begin Object Name="MaterialExpressionAdd_5"
+      A=(Expression=/Script/Engine.MaterialExpressionTextureCoordinate'"MF_GetKernel:MaterialExpressionTextureCoordinate_0"')
+      B=(Expression=/Script/Engine.MaterialExpressionMultiply'"MF_GetKernel:MaterialExpressionMultiply_7"')
+      MaterialExpressionEditorX=368
+      MaterialExpressionEditorY=912
+      MaterialExpressionGuid=FE4E60274CD3A470465732950B22548A
+      Function=/Script/Engine.MaterialFunction'"MF_GetKernel"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_0"
+      R=1.000000
+      MaterialExpressionEditorX=-1391
+      MaterialExpressionEditorY=452
+      MaterialExpressionGuid=B0FE6A4F449AA648310D3A9EB7DBBFA4
+      Function=/Script/Engine.MaterialFunction'"MF_GetKernel"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant2Vector_1"
+      R=1.000000
+      MaterialExpressionEditorX=-784
+      MaterialExpressionEditorY=272
+      MaterialExpressionGuid=4932F1F4433B9B1D67EFB2B7F036B2ED
+      Function=/Script/Engine.MaterialFunction'"MF_GetKernel"'
+      Desc="Horizontal Offset"
+      bCommentBubbleVisible=True
+   End Object
+   Begin Object Name="MaterialExpressionConstant2Vector_4"
+      G=1.000000
+      MaterialExpressionEditorX=-944
+      MaterialExpressionEditorY=816
+      MaterialExpressionGuid=4932F1F4433B9B1D67EFB2B7F036B2ED
+      Function=/Script/Engine.MaterialFunction'"MF_GetKernel"'
+      Desc="Vertical Offset"
+      bCommentBubbleVisible=True
+   End Object
+   Begin Object Name="MaterialExpressionFunctionInput_0"
+      Preview=(Expression=/Script/Engine.MaterialExpressionConstant'"MF_GetKernel:MaterialExpressionConstant_0"')
+      InputName="Width"
+      Id=D88E62DA4CD9192608BEF1BBC366C0AF
+      InputType=FunctionInput_Scalar
+      MaterialExpressionEditorX=-1200
+      MaterialExpressionEditorY=448
+      MaterialExpressionGuid=6C54F5384C2AE449E614D49418FEFBED
+      Function=/Script/Engine.MaterialFunction'"MF_GetKernel"'
+   End Object
+   Begin Object Name="MaterialExpressionFunctionOutput_0"
+      OutputName="Center"
+      A=(Expression=/Script/Engine.MaterialExpressionTextureCoordinate'"MF_GetKernel:MaterialExpressionTextureCoordinate_0"')
+      bLastPreviewed=True
+      Id=22B370C442A395BA1C94E8BDD52A83A5
+      MaterialExpressionEditorX=720
+      MaterialExpressionEditorY=80
+      MaterialExpressionGuid=B0E2E1ED4B0A36848D5A5AAEFA3561FD
+      Function=/Script/Engine.MaterialFunction'"MF_GetKernel"'
+   End Object
+   Begin Object Name="MaterialExpressionFunctionOutput_1"
+      OutputName="Left"
+      SortPriority=1
+      A=(Expression=/Script/Engine.MaterialExpressionAdd'"MF_GetKernel:MaterialExpressionAdd_0"')
+      bLastPreviewed=True
+      Id=1B7D3D8A4FA27CE873F202BE306AD7C8
+      MaterialExpressionEditorX=720
+      MaterialExpressionEditorY=288
+      MaterialExpressionGuid=B0E2E1ED4B0A36848D5A5AAEFA3561FD
+      Function=/Script/Engine.MaterialFunction'"MF_GetKernel"'
+   End Object
+   Begin Object Name="MaterialExpressionFunctionOutput_2"
+      OutputName="Right"
+      SortPriority=2
+      A=(Expression=/Script/Engine.MaterialExpressionAdd'"MF_GetKernel:MaterialExpressionAdd_1"')
+      bLastPreviewed=True
+      Id=F878CFFD478B9E8686DBB88B9A27D807
+      MaterialExpressionEditorX=720
+      MaterialExpressionEditorY=464
+      MaterialExpressionGuid=B0E2E1ED4B0A36848D5A5AAEFA3561FD
+      Function=/Script/Engine.MaterialFunction'"MF_GetKernel"'
+   End Object
+   Begin Object Name="MaterialExpressionFunctionOutput_3"
+      OutputName="Up"
+      SortPriority=3
+      A=(Expression=/Script/Engine.MaterialExpressionAdd'"MF_GetKernel:MaterialExpressionAdd_4"')
+      bLastPreviewed=True
+      Id=72BDC5A9455049C8AB20B48A276E76F8
+      MaterialExpressionEditorX=720
+      MaterialExpressionEditorY=640
+      MaterialExpressionGuid=B0E2E1ED4B0A36848D5A5AAEFA3561FD
+      Function=/Script/Engine.MaterialFunction'"MF_GetKernel"'
+   End Object
+   Begin Object Name="MaterialExpressionFunctionOutput_4"
+      OutputName="Down"
+      SortPriority=4
+      A=(Expression=/Script/Engine.MaterialExpressionAdd'"MF_GetKernel:MaterialExpressionAdd_5"')
+      bLastPreviewed=True
+      Id=E14AFED541CBFCB6A99DE8AFFB0686CD
+      MaterialExpressionEditorX=720
+      MaterialExpressionEditorY=816
+      MaterialExpressionGuid=B0E2E1ED4B0A36848D5A5AAEFA3561FD
+      Function=/Script/Engine.MaterialFunction'"MF_GetKernel"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_0"
+      A=(Expression=/Script/Engine.MaterialExpressionConstant2Vector'"MF_GetKernel:MaterialExpressionConstant2Vector_1"',OutputIndex=2,Mask=1,MaskG=1)
+      B=(Expression=/Script/Engine.MaterialExpressionFunctionInput'"MF_GetKernel:MaterialExpressionFunctionInput_0"')
+      MaterialExpressionEditorX=-480
+      MaterialExpressionEditorY=368
+      MaterialExpressionGuid=4AA706E540ADA77A5CE4FDADE58F5C0A
+      Function=/Script/Engine.MaterialFunction'"MF_GetKernel"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_1"
+      A=(Expression=/Script/Engine.MaterialExpressionMultiply'"MF_GetKernel:MaterialExpressionMultiply_0"')
+      B=(Expression=/Script/Engine.MaterialExpressionSceneTexelSize'"MF_GetKernel:MaterialExpressionSceneTexelSize_0"')
+      MaterialExpressionEditorX=-368
+      MaterialExpressionEditorY=496
+      MaterialExpressionGuid=2A9F69494363AF2592B1929E07D3FFFB
+      Function=/Script/Engine.MaterialFunction'"MF_GetKernel"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_2"
+      B=(Expression=/Script/Engine.MaterialExpressionMultiply'"MF_GetKernel:MaterialExpressionMultiply_1"')
+      ConstA=-1.000000
+      ConstB=-1.000000
+      MaterialExpressionEditorX=-256
+      MaterialExpressionEditorY=336
+      MaterialExpressionGuid=3A24E5FB493EE130564005ADC289B877
+      Function=/Script/Engine.MaterialFunction'"MF_GetKernel"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_6"
+      A=(Expression=/Script/Engine.MaterialExpressionConstant2Vector'"MF_GetKernel:MaterialExpressionConstant2Vector_4"',OutputIndex=2,Mask=1,MaskG=1)
+      B=(Expression=/Script/Engine.MaterialExpressionFunctionInput'"MF_GetKernel:MaterialExpressionFunctionInput_0"')
+      MaterialExpressionEditorX=-528
+      MaterialExpressionEditorY=880
+      MaterialExpressionGuid=4AA706E540ADA77A5CE4FDADE58F5C0A
+      Function=/Script/Engine.MaterialFunction'"MF_GetKernel"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_7"
+      A=(Expression=/Script/Engine.MaterialExpressionMultiply'"MF_GetKernel:MaterialExpressionMultiply_6"')
+      B=(Expression=/Script/Engine.MaterialExpressionSceneTexelSize'"MF_GetKernel:MaterialExpressionSceneTexelSize_0"')
+      MaterialExpressionEditorX=-272
+      MaterialExpressionEditorY=880
+      MaterialExpressionGuid=2A9F69494363AF2592B1929E07D3FFFB
+      Function=/Script/Engine.MaterialFunction'"MF_GetKernel"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_8"
+      B=(Expression=/Script/Engine.MaterialExpressionMultiply'"MF_GetKernel:MaterialExpressionMultiply_7"')
+      ConstA=-1.000000
+      ConstB=-1.000000
+      MaterialExpressionEditorX=-32
+      MaterialExpressionEditorY=784
+      MaterialExpressionGuid=3A24E5FB493EE130564005ADC289B877
+      Function=/Script/Engine.MaterialFunction'"MF_GetKernel"'
+   End Object
+   Begin Object Name="MaterialExpressionSceneTexelSize_0"
+      MaterialExpressionEditorX=-928
+      MaterialExpressionEditorY=544
+      MaterialExpressionGuid=73E9F8C8430DEF89E71C648203371A91
+      Function=/Script/Engine.MaterialFunction'"MF_GetKernel"'
+      Desc="Size of pixel on Screen"
+      bCommentBubbleVisible=True
+   End Object
+   Begin Object Name="MaterialExpressionTextureCoordinate_0"
+      MaterialExpressionEditorX=-416
+      MaterialExpressionEditorY=80
+      MaterialExpressionGuid=736EC2164F1A9F8EE44139ADB1DA529C
+      Function=/Script/Engine.MaterialFunction'"MF_GetKernel"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="Material_0"
+      Begin Object Name="Material_0EditorOnlyData"
+         EmissiveColor=(Expression=/Script/Engine.MaterialExpressionFunctionOutput'"MF_GetKernel:MaterialExpressionFunctionOutput_4"')
+         ExpressionCollection=(Expressions=(/Script/Engine.MaterialExpressionFunctionOutput'"MF_GetKernel:MaterialExpressionFunctionOutput_0"',/Script/Engine.MaterialExpressionFunctionOutput'"MF_GetKernel:MaterialExpressionFunctionOutput_1"',/Script/Engine.MaterialExpressionFunctionOutput'"MF_GetKernel:MaterialExpressionFunctionOutput_2"',/Script/Engine.MaterialExpressionFunctionOutput'"MF_GetKernel:MaterialExpressionFunctionOutput_3"',/Script/Engine.MaterialExpressionFunctionOutput'"MF_GetKernel:MaterialExpressionFunctionOutput_4"',/Script/Engine.MaterialExpressionFunctionInput'"MF_GetKernel:MaterialExpressionFunctionInput_0"',/Script/Engine.MaterialExpressionConstant'"MF_GetKernel:MaterialExpressionConstant_0"',/Script/Engine.MaterialExpressionTextureCoordinate'"MF_GetKernel:MaterialExpressionTextureCoordinate_0"',/Script/Engine.MaterialExpressionConstant2Vector'"MF_GetKernel:MaterialExpressionConstant2Vector_1"',/Script/Engine.MaterialExpressionMultiply'"MF_GetKernel:MaterialExpressionMultiply_0"',/Script/Engine.MaterialExpressionMultiply'"MF_GetKernel:MaterialExpressionMultiply_1"',/Script/Engine.MaterialExpressionSceneTexelSize'"MF_GetKernel:MaterialExpressionSceneTexelSize_0"',/Script/Engine.MaterialExpressionMultiply'"MF_GetKernel:MaterialExpressionMultiply_2"',/Script/Engine.MaterialExpressionAdd'"MF_GetKernel:MaterialExpressionAdd_0"',/Script/Engine.MaterialExpressionAdd'"MF_GetKernel:MaterialExpressionAdd_1"',/Script/Engine.MaterialExpressionMultiply'"MF_GetKernel:MaterialExpressionMultiply_6"',/Script/Engine.MaterialExpressionMultiply'"MF_GetKernel:MaterialExpressionMultiply_7"',/Script/Engine.MaterialExpressionMultiply'"MF_GetKernel:MaterialExpressionMultiply_8"',/Script/Engine.MaterialExpressionAdd'"MF_GetKernel:MaterialExpressionAdd_4"',/Script/Engine.MaterialExpressionAdd'"MF_GetKernel:MaterialExpressionAdd_5"',/Script/Engine.MaterialExpressionConstant2Vector'"MF_GetKernel:MaterialExpressionConstant2Vector_4"'))
+      End Object
+      ShadingModel=MSM_Unlit
+      ShadingModels=(ShadingModelField=1)
+      bCanMaskedBeAssumedOpaque=True
+      StateId=F03050924DC29CBE1E31E4859104815C
+      EditorOnlyData=/Script/Engine.MaterialEditorOnlyData'"Material_0EditorOnlyData"'
+      ThumbnailInfo=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive'"MF_GetKernel:SceneThumbnailInfoWithPrimitive_0"'
+      LightingGuid=01CCEF2D4A92F7FC1A5DE1ADD5353B82
+   End Object
+   EditorOnlyData=/Script/Engine.MaterialFunctionEditorOnlyData'"MF_GetKernelEditorOnlyData"'
+   StateId=DC1578894B9E86664C134A80504627B4
+   CombinedInputTypes=15
+   CombinedOutputTypes=15
+   ThumbnailInfo=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+End Object

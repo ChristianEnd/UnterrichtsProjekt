@@ -1,0 +1,348 @@
+Begin Object Class=/Script/Engine.MaterialFunction Name="MF_MaskCustomDepth"
+   Begin Object Class=/Script/Engine.MaterialFunctionEditorOnlyData Name="MF_MaskCustomDepthEditorOnlyData"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionInput Name="MaterialExpressionFunctionInput_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionInput Name="MaterialExpressionFunctionInput_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionOutput Name="MaterialExpressionFunctionOutput_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionIf Name="MaterialExpressionIf_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMin Name="MaterialExpressionMin_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMin Name="MaterialExpressionMin_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMin Name="MaterialExpressionMin_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMin Name="MaterialExpressionMin_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMin Name="MaterialExpressionMin_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMin Name="MaterialExpressionMin_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMin Name="MaterialExpressionMin_6"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMin Name="MaterialExpressionMin_7"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionOneMinus Name="MaterialExpressionOneMinus_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionSceneTexture Name="MaterialExpressionSceneTexture_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionSceneTexture Name="MaterialExpressionSceneTexture_10"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionSceneTexture Name="MaterialExpressionSceneTexture_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionSceneTexture Name="MaterialExpressionSceneTexture_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionSceneTexture Name="MaterialExpressionSceneTexture_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionSceneTexture Name="MaterialExpressionSceneTexture_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionSceneTexture Name="MaterialExpressionSceneTexture_6"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionSceneTexture Name="MaterialExpressionSceneTexture_7"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionSceneTexture Name="MaterialExpressionSceneTexture_8"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionSceneTexture Name="MaterialExpressionSceneTexture_9"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStep Name="MaterialExpressionStep_0"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Class=/Script/Engine.Material Name="Material_0"
+      Begin Object Class=/Script/Engine.MaterialEditorOnlyData Name="Material_0EditorOnlyData"
+      End Object
+   End Object
+   Begin Object Name="MF_MaskCustomDepthEditorOnlyData"
+      ExpressionCollection=(Expressions=(/Script/Engine.MaterialExpressionFunctionOutput'"MF_MaskCustomDepth:MaterialExpressionFunctionOutput_0"',/Script/Engine.MaterialExpressionFunctionInput'"MF_MaskCustomDepth:MaterialExpressionFunctionInput_0"',/Script/Engine.MaterialExpressionConstant'"MF_MaskCustomDepth:MaterialExpressionConstant_0"',/Script/Engine.MaterialExpressionStep'"MF_MaskCustomDepth:MaterialExpressionStep_0"',/Script/Engine.MaterialExpressionOneMinus'"MF_MaskCustomDepth:MaterialExpressionOneMinus_0"',/Script/Engine.MaterialExpressionMaterialFunctionCall'"MF_MaskCustomDepth:MaterialExpressionMaterialFunctionCall_0"',/Script/Engine.MaterialExpressionMin'"MF_MaskCustomDepth:MaterialExpressionMin_1"',/Script/Engine.MaterialExpressionMin'"MF_MaskCustomDepth:MaterialExpressionMin_2"',/Script/Engine.MaterialExpressionMin'"MF_MaskCustomDepth:MaterialExpressionMin_3"',/Script/Engine.MaterialExpressionMin'"MF_MaskCustomDepth:MaterialExpressionMin_4"',/Script/Engine.MaterialExpressionFunctionInput'"MF_MaskCustomDepth:MaterialExpressionFunctionInput_1"',/Script/Engine.MaterialExpressionConstant'"MF_MaskCustomDepth:MaterialExpressionConstant_1"',/Script/Engine.MaterialExpressionSceneTexture'"MF_MaskCustomDepth:MaterialExpressionSceneTexture_1"',/Script/Engine.MaterialExpressionSceneTexture'"MF_MaskCustomDepth:MaterialExpressionSceneTexture_2"',/Script/Engine.MaterialExpressionSceneTexture'"MF_MaskCustomDepth:MaterialExpressionSceneTexture_3"',/Script/Engine.MaterialExpressionSceneTexture'"MF_MaskCustomDepth:MaterialExpressionSceneTexture_4"',/Script/Engine.MaterialExpressionSceneTexture'"MF_MaskCustomDepth:MaterialExpressionSceneTexture_5"',/Script/Engine.MaterialExpressionMaterialFunctionCall'"MF_MaskCustomDepth:MaterialExpressionMaterialFunctionCall_1"',/Script/Engine.MaterialExpressionMin'"MF_MaskCustomDepth:MaterialExpressionMin_0"',/Script/Engine.MaterialExpressionMin'"MF_MaskCustomDepth:MaterialExpressionMin_5"',/Script/Engine.MaterialExpressionMin'"MF_MaskCustomDepth:MaterialExpressionMin_6"',/Script/Engine.MaterialExpressionMin'"MF_MaskCustomDepth:MaterialExpressionMin_7"',/Script/Engine.MaterialExpressionSceneTexture'"MF_MaskCustomDepth:MaterialExpressionSceneTexture_6"',/Script/Engine.MaterialExpressionSceneTexture'"MF_MaskCustomDepth:MaterialExpressionSceneTexture_7"',/Script/Engine.MaterialExpressionSceneTexture'"MF_MaskCustomDepth:MaterialExpressionSceneTexture_8"',/Script/Engine.MaterialExpressionSceneTexture'"MF_MaskCustomDepth:MaterialExpressionSceneTexture_9"',/Script/Engine.MaterialExpressionSceneTexture'"MF_MaskCustomDepth:MaterialExpressionSceneTexture_10"',/Script/Engine.MaterialExpressionIf'"MF_MaskCustomDepth:MaterialExpressionIf_0"',/Script/Engine.MaterialExpressionConstant'"MF_MaskCustomDepth:MaterialExpressionConstant_2"'))
+   End Object
+   Begin Object Name="MaterialExpressionConstant_0"
+      R=100000.000000
+      MaterialExpressionEditorX=-720
+      MaterialExpressionEditorY=800
+      MaterialExpressionGuid=55DF7E7D438E6E10CD1EB98BBF3C8F93
+      Function=/Script/Engine.MaterialFunction'"MF_MaskCustomDepth"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_1"
+      R=2.000000
+      MaterialExpressionEditorX=-1344
+      MaterialExpressionEditorY=1120
+      MaterialExpressionGuid=588E79AA43A25CFF0D5E678554E81D74
+      Function=/Script/Engine.MaterialFunction'"MF_MaskCustomDepth"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_2"
+      MaterialExpressionEditorX=50
+      MaterialExpressionEditorY=1698
+      MaterialExpressionGuid=0B6504F44F1939D6ECCD29B290409A71
+      Function=/Script/Engine.MaterialFunction'"MF_MaskCustomDepth"'
+   End Object
+   Begin Object Name="MaterialExpressionFunctionInput_0"
+      Preview=(Expression=/Script/Engine.MaterialExpressionConstant'"MF_MaskCustomDepth:MaterialExpressionConstant_0"')
+      InputName="MaxDepth"
+      Id=B22B338F4343BEAD713C23AC9F2DFACA
+      InputType=FunctionInput_Scalar
+      MaterialExpressionEditorX=-480
+      MaterialExpressionEditorY=800
+      MaterialExpressionGuid=4EDE850349604090171F3BA26CF88149
+      Function=/Script/Engine.MaterialFunction'"MF_MaskCustomDepth"'
+   End Object
+   Begin Object Name="MaterialExpressionFunctionInput_1"
+      Preview=(Expression=/Script/Engine.MaterialExpressionConstant'"MF_MaskCustomDepth:MaterialExpressionConstant_1"')
+      InputName="MaxThickness"
+      Id=810625924E00A2ADE83040B968DD9D0E
+      InputType=FunctionInput_Scalar
+      MaterialExpressionEditorX=-1136
+      MaterialExpressionEditorY=1136
+      MaterialExpressionGuid=99284DF342645580A441A8BE1DF34B26
+      Function=/Script/Engine.MaterialFunction'"MF_MaskCustomDepth"'
+   End Object
+   Begin Object Name="MaterialExpressionFunctionOutput_0"
+      A=(Expression=/Script/Engine.MaterialExpressionIf'"MF_MaskCustomDepth:MaterialExpressionIf_0"')
+      bLastPreviewed=True
+      Id=397A84A54C1BA410FC8B56848C4A78E5
+      MaterialExpressionEditorX=656
+      MaterialExpressionEditorY=1568
+      MaterialExpressionGuid=FB11ECD34CA9E9409B7238ACC078E6F2
+      Function=/Script/Engine.MaterialFunction'"MF_MaskCustomDepth"'
+   End Object
+   Begin Object Name="MaterialExpressionIf_0"
+      A=(Expression=/Script/Engine.MaterialExpressionMin'"MF_MaskCustomDepth:MaterialExpressionMin_4"')
+      B=(Expression=/Script/Engine.MaterialExpressionMin'"MF_MaskCustomDepth:MaterialExpressionMin_7"')
+      AGreaterThanB=(Expression=/Script/Engine.MaterialExpressionConstant'"MF_MaskCustomDepth:MaterialExpressionConstant_2"')
+      AEqualsB=(Expression=/Script/Engine.MaterialExpressionOneMinus'"MF_MaskCustomDepth:MaterialExpressionOneMinus_0"')
+      ALessThanB=(Expression=/Script/Engine.MaterialExpressionConstant'"MF_MaskCustomDepth:MaterialExpressionConstant_2"')
+      MaterialExpressionEditorX=336
+      MaterialExpressionEditorY=1584
+      MaterialExpressionGuid=6B8D289F4077F22758F76AAE49327DD8
+      Function=/Script/Engine.MaterialFunction'"MF_MaskCustomDepth"'
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_0"
+      MaterialFunction=/Script/Engine.MaterialFunction'"/Game/PostProcess/Outline+Functions/MF_GetKernel.MF_GetKernel"'
+      FunctionInputs(0)=(ExpressionInputId=D88E62DA4CD9192608BEF1BBC366C0AF,Input=(Expression=/Script/Engine.MaterialExpressionFunctionInput'"MF_MaskCustomDepth:MaterialExpressionFunctionInput_1"',InputName="Width"))
+      FunctionOutputs(0)=(ExpressionOutputId=22B370C442A395BA1C94E8BDD52A83A5,Output=(OutputName="Center"))
+      FunctionOutputs(1)=(ExpressionOutputId=1B7D3D8A4FA27CE873F202BE306AD7C8,Output=(OutputName="Left"))
+      FunctionOutputs(2)=(ExpressionOutputId=F878CFFD478B9E8686DBB88B9A27D807,Output=(OutputName="Right"))
+      FunctionOutputs(3)=(ExpressionOutputId=72BDC5A9455049C8AB20B48A276E76F8,Output=(OutputName="Up"))
+      FunctionOutputs(4)=(ExpressionOutputId=E14AFED541CBFCB6A99DE8AFFB0686CD,Output=(OutputName="Down"))
+      MaterialExpressionEditorX=-880
+      MaterialExpressionEditorY=1376
+      MaterialExpressionGuid=C707043D4B6E1C88A7F6D2849BD5D733
+      Function=/Script/Engine.MaterialFunction'"MF_MaskCustomDepth"'
+      Outputs(0)=(OutputName="Center")
+      Outputs(1)=(OutputName="Left")
+      Outputs(2)=(OutputName="Right")
+      Outputs(3)=(OutputName="Up")
+      Outputs(4)=(OutputName="Down")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_1"
+      MaterialFunction=/Script/Engine.MaterialFunction'"/Game/PostProcess/Outline+Functions/MF_GetKernel.MF_GetKernel"'
+      FunctionInputs(0)=(ExpressionInputId=D88E62DA4CD9192608BEF1BBC366C0AF,Input=(Expression=/Script/Engine.MaterialExpressionFunctionInput'"MF_MaskCustomDepth:MaterialExpressionFunctionInput_1"',InputName="Width"))
+      FunctionOutputs(0)=(ExpressionOutputId=22B370C442A395BA1C94E8BDD52A83A5,Output=(OutputName="Center"))
+      FunctionOutputs(1)=(ExpressionOutputId=1B7D3D8A4FA27CE873F202BE306AD7C8,Output=(OutputName="Left"))
+      FunctionOutputs(2)=(ExpressionOutputId=F878CFFD478B9E8686DBB88B9A27D807,Output=(OutputName="Right"))
+      FunctionOutputs(3)=(ExpressionOutputId=72BDC5A9455049C8AB20B48A276E76F8,Output=(OutputName="Up"))
+      FunctionOutputs(4)=(ExpressionOutputId=E14AFED541CBFCB6A99DE8AFFB0686CD,Output=(OutputName="Down"))
+      MaterialExpressionEditorX=-880
+      MaterialExpressionEditorY=2112
+      MaterialExpressionGuid=C707043D4B6E1C88A7F6D2849BD5D733
+      Function=/Script/Engine.MaterialFunction'"MF_MaskCustomDepth"'
+      Outputs(0)=(OutputName="Center")
+      Outputs(1)=(OutputName="Left")
+      Outputs(2)=(OutputName="Right")
+      Outputs(3)=(OutputName="Up")
+      Outputs(4)=(OutputName="Down")
+   End Object
+   Begin Object Name="MaterialExpressionMin_0"
+      A=(Expression=/Script/Engine.MaterialExpressionSceneTexture'"MF_MaskCustomDepth:MaterialExpressionSceneTexture_8"',Mask=1,MaskR=1,MaskG=1,MaskB=1,MaskA=1)
+      B=(Expression=/Script/Engine.MaterialExpressionSceneTexture'"MF_MaskCustomDepth:MaterialExpressionSceneTexture_9"',Mask=1,MaskR=1,MaskG=1,MaskB=1,MaskA=1)
+      MaterialExpressionEditorX=-368
+      MaterialExpressionEditorY=2304
+      MaterialExpressionGuid=B1738CD24E272D1F96AA0C99909EDE03
+      Function=/Script/Engine.MaterialFunction'"MF_MaskCustomDepth"'
+   End Object
+   Begin Object Name="MaterialExpressionMin_1"
+      A=(Expression=/Script/Engine.MaterialExpressionSceneTexture'"MF_MaskCustomDepth:MaterialExpressionSceneTexture_3"',Mask=1,MaskR=1,MaskG=1,MaskB=1,MaskA=1)
+      B=(Expression=/Script/Engine.MaterialExpressionSceneTexture'"MF_MaskCustomDepth:MaterialExpressionSceneTexture_4"',Mask=1,MaskR=1,MaskG=1,MaskB=1,MaskA=1)
+      MaterialExpressionEditorX=-368
+      MaterialExpressionEditorY=1568
+      MaterialExpressionGuid=B1738CD24E272D1F96AA0C99909EDE03
+      Function=/Script/Engine.MaterialFunction'"MF_MaskCustomDepth"'
+   End Object
+   Begin Object Name="MaterialExpressionMin_2"
+      A=(Expression=/Script/Engine.MaterialExpressionSceneTexture'"MF_MaskCustomDepth:MaterialExpressionSceneTexture_1"',Mask=1,MaskR=1,MaskG=1,MaskB=1,MaskA=1)
+      B=(Expression=/Script/Engine.MaterialExpressionSceneTexture'"MF_MaskCustomDepth:MaterialExpressionSceneTexture_2"',Mask=1,MaskR=1,MaskG=1,MaskB=1,MaskA=1)
+      MaterialExpressionEditorX=-368
+      MaterialExpressionEditorY=1360
+      MaterialExpressionGuid=B1738CD24E272D1F96AA0C99909EDE03
+      Function=/Script/Engine.MaterialFunction'"MF_MaskCustomDepth"'
+   End Object
+   Begin Object Name="MaterialExpressionMin_3"
+      A=(Expression=/Script/Engine.MaterialExpressionMin'"MF_MaskCustomDepth:MaterialExpressionMin_2"')
+      B=(Expression=/Script/Engine.MaterialExpressionMin'"MF_MaskCustomDepth:MaterialExpressionMin_1"')
+      MaterialExpressionEditorX=-208
+      MaterialExpressionEditorY=1456
+      MaterialExpressionGuid=AFF800DE4C8FBFC7A960DC98BE9A960A
+      Function=/Script/Engine.MaterialFunction'"MF_MaskCustomDepth"'
+   End Object
+   Begin Object Name="MaterialExpressionMin_4"
+      A=(Expression=/Script/Engine.MaterialExpressionSceneTexture'"MF_MaskCustomDepth:MaterialExpressionSceneTexture_5"',Mask=1,MaskR=1,MaskG=1,MaskB=1,MaskA=1)
+      B=(Expression=/Script/Engine.MaterialExpressionMin'"MF_MaskCustomDepth:MaterialExpressionMin_3"')
+      MaterialExpressionEditorX=-48
+      MaterialExpressionEditorY=1168
+      MaterialExpressionGuid=AFF800DE4C8FBFC7A960DC98BE9A960A
+      Function=/Script/Engine.MaterialFunction'"MF_MaskCustomDepth"'
+   End Object
+   Begin Object Name="MaterialExpressionMin_5"
+      A=(Expression=/Script/Engine.MaterialExpressionSceneTexture'"MF_MaskCustomDepth:MaterialExpressionSceneTexture_6"',Mask=1,MaskR=1,MaskG=1,MaskB=1,MaskA=1)
+      B=(Expression=/Script/Engine.MaterialExpressionSceneTexture'"MF_MaskCustomDepth:MaterialExpressionSceneTexture_7"',Mask=1,MaskR=1,MaskG=1,MaskB=1,MaskA=1)
+      MaterialExpressionEditorX=-368
+      MaterialExpressionEditorY=2096
+      MaterialExpressionGuid=B1738CD24E272D1F96AA0C99909EDE03
+      Function=/Script/Engine.MaterialFunction'"MF_MaskCustomDepth"'
+   End Object
+   Begin Object Name="MaterialExpressionMin_6"
+      A=(Expression=/Script/Engine.MaterialExpressionMin'"MF_MaskCustomDepth:MaterialExpressionMin_5"')
+      B=(Expression=/Script/Engine.MaterialExpressionMin'"MF_MaskCustomDepth:MaterialExpressionMin_0"')
+      MaterialExpressionEditorX=-208
+      MaterialExpressionEditorY=2192
+      MaterialExpressionGuid=AFF800DE4C8FBFC7A960DC98BE9A960A
+      Function=/Script/Engine.MaterialFunction'"MF_MaskCustomDepth"'
+   End Object
+   Begin Object Name="MaterialExpressionMin_7"
+      A=(Expression=/Script/Engine.MaterialExpressionSceneTexture'"MF_MaskCustomDepth:MaterialExpressionSceneTexture_10"',Mask=1,MaskR=1,MaskG=1,MaskB=1,MaskA=1)
+      B=(Expression=/Script/Engine.MaterialExpressionMin'"MF_MaskCustomDepth:MaterialExpressionMin_6"')
+      MaterialExpressionEditorX=-48
+      MaterialExpressionEditorY=1904
+      MaterialExpressionGuid=AFF800DE4C8FBFC7A960DC98BE9A960A
+      Function=/Script/Engine.MaterialFunction'"MF_MaskCustomDepth"'
+   End Object
+   Begin Object Name="MaterialExpressionOneMinus_0"
+      Input=(Expression=/Script/Engine.MaterialExpressionStep'"MF_MaskCustomDepth:MaterialExpressionStep_0"')
+      MaterialExpressionEditorX=-48
+      MaterialExpressionEditorY=800
+      MaterialExpressionGuid=940F0A134DE0ADE0CA84428E78A9144E
+      Function=/Script/Engine.MaterialFunction'"MF_MaskCustomDepth"'
+   End Object
+   Begin Object Name="MaterialExpressionSceneTexture_1"
+      Coordinates=(Expression=/Script/Engine.MaterialExpressionMaterialFunctionCall'"MF_MaskCustomDepth:MaterialExpressionMaterialFunctionCall_0"',OutputIndex=1)
+      SceneTextureId=PPI_CustomDepth
+      MaterialExpressionEditorX=-656
+      MaterialExpressionEditorY=1312
+      MaterialExpressionGuid=EA94F1A4443F39AF8132F197E2858709
+      Function=/Script/Engine.MaterialFunction'"MF_MaskCustomDepth"'
+   End Object
+   Begin Object Name="MaterialExpressionSceneTexture_10"
+      Coordinates=(Expression=/Script/Engine.MaterialExpressionMaterialFunctionCall'"MF_MaskCustomDepth:MaterialExpressionMaterialFunctionCall_1"')
+      SceneTextureId=PPI_SceneDepth
+      MaterialExpressionEditorX=-656
+      MaterialExpressionEditorY=1888
+      MaterialExpressionGuid=EA94F1A4443F39AF8132F197E2858709
+      Function=/Script/Engine.MaterialFunction'"MF_MaskCustomDepth"'
+   End Object
+   Begin Object Name="MaterialExpressionSceneTexture_2"
+      Coordinates=(Expression=/Script/Engine.MaterialExpressionMaterialFunctionCall'"MF_MaskCustomDepth:MaterialExpressionMaterialFunctionCall_0"',OutputIndex=2)
+      SceneTextureId=PPI_CustomDepth
+      MaterialExpressionEditorX=-656
+      MaterialExpressionEditorY=1440
+      MaterialExpressionGuid=EA94F1A4443F39AF8132F197E2858709
+      Function=/Script/Engine.MaterialFunction'"MF_MaskCustomDepth"'
+   End Object
+   Begin Object Name="MaterialExpressionSceneTexture_3"
+      Coordinates=(Expression=/Script/Engine.MaterialExpressionMaterialFunctionCall'"MF_MaskCustomDepth:MaterialExpressionMaterialFunctionCall_0"',OutputIndex=3)
+      SceneTextureId=PPI_CustomDepth
+      MaterialExpressionEditorX=-656
+      MaterialExpressionEditorY=1568
+      MaterialExpressionGuid=EA94F1A4443F39AF8132F197E2858709
+      Function=/Script/Engine.MaterialFunction'"MF_MaskCustomDepth"'
+   End Object
+   Begin Object Name="MaterialExpressionSceneTexture_4"
+      Coordinates=(Expression=/Script/Engine.MaterialExpressionMaterialFunctionCall'"MF_MaskCustomDepth:MaterialExpressionMaterialFunctionCall_0"',OutputIndex=4)
+      SceneTextureId=PPI_CustomDepth
+      MaterialExpressionEditorX=-656
+      MaterialExpressionEditorY=1712
+      MaterialExpressionGuid=EA94F1A4443F39AF8132F197E2858709
+      Function=/Script/Engine.MaterialFunction'"MF_MaskCustomDepth"'
+   End Object
+   Begin Object Name="MaterialExpressionSceneTexture_5"
+      Coordinates=(Expression=/Script/Engine.MaterialExpressionMaterialFunctionCall'"MF_MaskCustomDepth:MaterialExpressionMaterialFunctionCall_0"')
+      SceneTextureId=PPI_CustomDepth
+      MaterialExpressionEditorX=-656
+      MaterialExpressionEditorY=1152
+      MaterialExpressionGuid=EA94F1A4443F39AF8132F197E2858709
+      Function=/Script/Engine.MaterialFunction'"MF_MaskCustomDepth"'
+   End Object
+   Begin Object Name="MaterialExpressionSceneTexture_6"
+      Coordinates=(Expression=/Script/Engine.MaterialExpressionMaterialFunctionCall'"MF_MaskCustomDepth:MaterialExpressionMaterialFunctionCall_1"',OutputIndex=1)
+      SceneTextureId=PPI_SceneDepth
+      MaterialExpressionEditorX=-656
+      MaterialExpressionEditorY=2048
+      MaterialExpressionGuid=EA94F1A4443F39AF8132F197E2858709
+      Function=/Script/Engine.MaterialFunction'"MF_MaskCustomDepth"'
+   End Object
+   Begin Object Name="MaterialExpressionSceneTexture_7"
+      Coordinates=(Expression=/Script/Engine.MaterialExpressionMaterialFunctionCall'"MF_MaskCustomDepth:MaterialExpressionMaterialFunctionCall_1"',OutputIndex=2)
+      SceneTextureId=PPI_SceneDepth
+      MaterialExpressionEditorX=-656
+      MaterialExpressionEditorY=2176
+      MaterialExpressionGuid=EA94F1A4443F39AF8132F197E2858709
+      Function=/Script/Engine.MaterialFunction'"MF_MaskCustomDepth"'
+   End Object
+   Begin Object Name="MaterialExpressionSceneTexture_8"
+      Coordinates=(Expression=/Script/Engine.MaterialExpressionMaterialFunctionCall'"MF_MaskCustomDepth:MaterialExpressionMaterialFunctionCall_1"',OutputIndex=3)
+      SceneTextureId=PPI_SceneDepth
+      MaterialExpressionEditorX=-656
+      MaterialExpressionEditorY=2304
+      MaterialExpressionGuid=EA94F1A4443F39AF8132F197E2858709
+      Function=/Script/Engine.MaterialFunction'"MF_MaskCustomDepth"'
+   End Object
+   Begin Object Name="MaterialExpressionSceneTexture_9"
+      Coordinates=(Expression=/Script/Engine.MaterialExpressionMaterialFunctionCall'"MF_MaskCustomDepth:MaterialExpressionMaterialFunctionCall_1"',OutputIndex=4)
+      SceneTextureId=PPI_SceneDepth
+      MaterialExpressionEditorX=-656
+      MaterialExpressionEditorY=2448
+      MaterialExpressionGuid=EA94F1A4443F39AF8132F197E2858709
+      Function=/Script/Engine.MaterialFunction'"MF_MaskCustomDepth"'
+   End Object
+   Begin Object Name="MaterialExpressionStep_0"
+      Y=(Expression=/Script/Engine.MaterialExpressionFunctionInput'"MF_MaskCustomDepth:MaterialExpressionFunctionInput_0"')
+      X=(Expression=/Script/Engine.MaterialExpressionMin'"MF_MaskCustomDepth:MaterialExpressionMin_4"')
+      MaterialExpressionEditorX=-192
+      MaterialExpressionEditorY=800
+      MaterialExpressionGuid=E4DF5BE142A962582946998E4CBF9E86
+      Function=/Script/Engine.MaterialFunction'"MF_MaskCustomDepth"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="Material_0"
+      Begin Object Name="Material_0EditorOnlyData"
+         EmissiveColor=(Expression=/Script/Engine.MaterialExpressionFunctionOutput'"MF_MaskCustomDepth:MaterialExpressionFunctionOutput_0"')
+         ExpressionCollection=(Expressions=(/Script/Engine.MaterialExpressionFunctionOutput'"MF_MaskCustomDepth:MaterialExpressionFunctionOutput_0"',/Script/Engine.MaterialExpressionFunctionInput'"MF_MaskCustomDepth:MaterialExpressionFunctionInput_0"',/Script/Engine.MaterialExpressionConstant'"MF_MaskCustomDepth:MaterialExpressionConstant_0"',/Script/Engine.MaterialExpressionStep'"MF_MaskCustomDepth:MaterialExpressionStep_0"',/Script/Engine.MaterialExpressionOneMinus'"MF_MaskCustomDepth:MaterialExpressionOneMinus_0"',/Script/Engine.MaterialExpressionMaterialFunctionCall'"MF_MaskCustomDepth:MaterialExpressionMaterialFunctionCall_0"',/Script/Engine.MaterialExpressionMin'"MF_MaskCustomDepth:MaterialExpressionMin_1"',/Script/Engine.MaterialExpressionMin'"MF_MaskCustomDepth:MaterialExpressionMin_2"',/Script/Engine.MaterialExpressionMin'"MF_MaskCustomDepth:MaterialExpressionMin_3"',/Script/Engine.MaterialExpressionMin'"MF_MaskCustomDepth:MaterialExpressionMin_4"',/Script/Engine.MaterialExpressionFunctionInput'"MF_MaskCustomDepth:MaterialExpressionFunctionInput_1"',/Script/Engine.MaterialExpressionConstant'"MF_MaskCustomDepth:MaterialExpressionConstant_1"',/Script/Engine.MaterialExpressionSceneTexture'"MF_MaskCustomDepth:MaterialExpressionSceneTexture_1"',/Script/Engine.MaterialExpressionSceneTexture'"MF_MaskCustomDepth:MaterialExpressionSceneTexture_2"',/Script/Engine.MaterialExpressionSceneTexture'"MF_MaskCustomDepth:MaterialExpressionSceneTexture_3"',/Script/Engine.MaterialExpressionSceneTexture'"MF_MaskCustomDepth:MaterialExpressionSceneTexture_4"',/Script/Engine.MaterialExpressionSceneTexture'"MF_MaskCustomDepth:MaterialExpressionSceneTexture_5"',/Script/Engine.MaterialExpressionMaterialFunctionCall'"MF_MaskCustomDepth:MaterialExpressionMaterialFunctionCall_1"',/Script/Engine.MaterialExpressionMin'"MF_MaskCustomDepth:MaterialExpressionMin_0"',/Script/Engine.MaterialExpressionMin'"MF_MaskCustomDepth:MaterialExpressionMin_5"',/Script/Engine.MaterialExpressionMin'"MF_MaskCustomDepth:MaterialExpressionMin_6"',/Script/Engine.MaterialExpressionMin'"MF_MaskCustomDepth:MaterialExpressionMin_7"',/Script/Engine.MaterialExpressionSceneTexture'"MF_MaskCustomDepth:MaterialExpressionSceneTexture_6"',/Script/Engine.MaterialExpressionSceneTexture'"MF_MaskCustomDepth:MaterialExpressionSceneTexture_7"',/Script/Engine.MaterialExpressionSceneTexture'"MF_MaskCustomDepth:MaterialExpressionSceneTexture_8"',/Script/Engine.MaterialExpressionSceneTexture'"MF_MaskCustomDepth:MaterialExpressionSceneTexture_9"',/Script/Engine.MaterialExpressionSceneTexture'"MF_MaskCustomDepth:MaterialExpressionSceneTexture_10"',/Script/Engine.MaterialExpressionIf'"MF_MaskCustomDepth:MaterialExpressionIf_0"',/Script/Engine.MaterialExpressionConstant'"MF_MaskCustomDepth:MaterialExpressionConstant_2"'))
+      End Object
+      ShadingModel=MSM_Unlit
+      ShadingModels=(ShadingModelField=1)
+      bCanMaskedBeAssumedOpaque=True
+      StateId=8E5CE7BF4FE3A6C73114F5988693C750
+      EditorOnlyData=/Script/Engine.MaterialEditorOnlyData'"Material_0EditorOnlyData"'
+      ThumbnailInfo=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive'"MF_MaskCustomDepth:SceneThumbnailInfoWithPrimitive_0"'
+      LightingGuid=714968A74A431E5F956FA5A83C11DA38
+   End Object
+   DependentFunctionExpressionCandidates(0)=/Script/Engine.MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_0"'
+   DependentFunctionExpressionCandidates(1)=/Script/Engine.MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_1"'
+   EditorOnlyData=/Script/Engine.MaterialFunctionEditorOnlyData'"MF_MaskCustomDepthEditorOnlyData"'
+   StateId=93C8F8C145D0AE96D1809DAB80551EC2
+   CombinedInputTypes=15
+   CombinedOutputTypes=15
+   ThumbnailInfo=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+End Object
